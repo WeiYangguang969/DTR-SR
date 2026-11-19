@@ -1,4 +1,4 @@
-# DPT-SR reproduction artifact
+# DPT-SR
 
 This snapshot accompanies *DPT-SR: Reliability-Weighted Transition Evidence for Sequential Recommendation*. The [supplementary material](supplementary/supplementary.pdf) contains the matched PCTM calibration, the within-MovieLens history-truncation study and the implementation details. Run the commands below from the directory containing this README.
 
