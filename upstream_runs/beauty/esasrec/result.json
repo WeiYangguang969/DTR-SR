@@ -1,0 +1,13 @@
+{
+  "dataset": "beauty",
+  "model": "esasrec",
+  "metrics": {
+    "recall@10": 0.0903141947918067,
+    "recall@20": 0.1271570077540226,
+    "ndcg@10": 0.0506342585206317,
+    "ndcg@20": 0.0598919275664819
+  },
+  "seconds": 1310.3091391000198,
+  "report": "metrics_report.csv",
+  "deviation": "evaluation depth K=20 in src/val_schemes/leave_one_out.py; training unchanged"
+}

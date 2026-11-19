@@ -1,0 +1,16 @@
+{
+  "dataset": "toys",
+  "model": "pctm",
+  "k": 20,
+  "users": 19365,
+  "metrics": {
+    "ndcg@5": 0.06577992212543983,
+    "recall@5": 0.08830364058869093,
+    "ndcg@10": 0.07377001569106884,
+    "recall@10": 0.11303898786470436,
+    "ndcg@20": 0.08022806664095784,
+    "recall@20": 0.13854892847921507
+  },
+  "seconds": 4.437317800009623,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

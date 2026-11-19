@@ -1,0 +1,16 @@
+{
+  "dataset": "sports",
+  "model": "fmc",
+  "k": 20,
+  "users": 35539,
+  "metrics": {
+    "ndcg@5": 0.021327477890604504,
+    "recall@5": 0.02881341624693998,
+    "ndcg@10": 0.024419411790984683,
+    "recall@10": 0.03840850896198542,
+    "ndcg@20": 0.027463256529209976,
+    "recall@20": 0.05053603083935958
+  },
+  "seconds": 10.219994199986104,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

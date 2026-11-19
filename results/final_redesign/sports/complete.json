@@ -1,0 +1,201 @@
+{
+  "dataset": "sports",
+  "records": [
+    {
+      "dataset": "sports",
+      "variant": "full",
+      "metrics": {
+        "ndcg@5": 0.03588978510210242,
+        "recall@5": 0.05132389768986184,
+        "ndcg@10": 0.04197427692412665,
+        "recall@10": 0.0702327021019162,
+        "ndcg@20": 0.048245445839998576,
+        "recall@20": 0.09510678409634486
+      },
+      "users": 35539,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "e90df6401241237709a9386d91fd9c2f24eb132665e99e74d6f5af5e12b8b9a6",
+          "rows": 260739,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "2fb358ca824c8df1e655275ba13d106b1c1b2dc1bb131810cc8519919abc1139",
+          "rows": 35539,
+          "verified": true
+        }
+      },
+      "config_sha256": "cd3ae583e2001043bb8ff8b1e129544b06440ed1d80bf98fb09d6efbf38405fe",
+      "per_user_sha256": "afe8e8b8c32557de9e5b974ef15aac0c738ba22212ee21af4172a0a2a947ed18"
+    },
+    {
+      "dataset": "sports",
+      "variant": "no_path",
+      "metrics": {
+        "ndcg@5": 0.034684877197644584,
+        "recall@5": 0.049100987647373306,
+        "ndcg@10": 0.04073920152788416,
+        "recall@10": 0.06795351585582037,
+        "ndcg@20": 0.04675321639822202,
+        "recall@20": 0.09178648808351389
+      },
+      "users": 35539,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "e90df6401241237709a9386d91fd9c2f24eb132665e99e74d6f5af5e12b8b9a6",
+          "rows": 260739,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "2fb358ca824c8df1e655275ba13d106b1c1b2dc1bb131810cc8519919abc1139",
+          "rows": 35539,
+          "verified": true
+        }
+      },
+      "config_sha256": "cd3ae583e2001043bb8ff8b1e129544b06440ed1d80bf98fb09d6efbf38405fe",
+      "per_user_sha256": "341214467a7633548d77fdbb420fc524dbfa2303dc167d23a194a2bf96eb6532"
+    },
+    {
+      "dataset": "sports",
+      "variant": "no_uncertainty",
+      "metrics": {
+        "ndcg@5": 0.03589943728861289,
+        "recall@5": 0.051352035791665494,
+        "ndcg@10": 0.041982742933840356,
+        "recall@10": 0.07026084020371985,
+        "ndcg@20": 0.048258568742048286,
+        "recall@20": 0.09516306029995217
+      },
+      "users": 35539,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "e90df6401241237709a9386d91fd9c2f24eb132665e99e74d6f5af5e12b8b9a6",
+          "rows": 260739,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "2fb358ca824c8df1e655275ba13d106b1c1b2dc1bb131810cc8519919abc1139",
+          "rows": 35539,
+          "verified": true
+        }
+      },
+      "config_sha256": "cd3ae583e2001043bb8ff8b1e129544b06440ed1d80bf98fb09d6efbf38405fe",
+      "per_user_sha256": "1d1b3aeb5662bc5a2105fc0a568d8fad369b0488fd5608860eec14b9f53911ce"
+    },
+    {
+      "dataset": "sports",
+      "variant": "no_conditional",
+      "metrics": {
+        "ndcg@5": 0.03579953778376196,
+        "recall@5": 0.05095810236641436,
+        "ndcg@10": 0.042223472409248994,
+        "recall@10": 0.07090801654520386,
+        "ndcg@20": 0.04847063121762777,
+        "recall@20": 0.09581023664143618
+      },
+      "users": 35539,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "e90df6401241237709a9386d91fd9c2f24eb132665e99e74d6f5af5e12b8b9a6",
+          "rows": 260739,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "2fb358ca824c8df1e655275ba13d106b1c1b2dc1bb131810cc8519919abc1139",
+          "rows": 35539,
+          "verified": true
+        }
+      },
+      "config_sha256": "cd3ae583e2001043bb8ff8b1e129544b06440ed1d80bf98fb09d6efbf38405fe",
+      "per_user_sha256": "a0e379332fa6426190a9f9bee5b31c0785dfa1bde4b8c2b49dcb8dc99669e0d9"
+    },
+    {
+      "dataset": "sports",
+      "variant": "independent_paths",
+      "metrics": {
+        "ndcg@5": 0.03579860312546067,
+        "recall@5": 0.05095810236641436,
+        "ndcg@10": 0.042216516230090095,
+        "recall@10": 0.07087987844340021,
+        "ndcg@20": 0.04846509219598025,
+        "recall@20": 0.09578209853963252
+      },
+      "users": 35539,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "e90df6401241237709a9386d91fd9c2f24eb132665e99e74d6f5af5e12b8b9a6",
+          "rows": 260739,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "2fb358ca824c8df1e655275ba13d106b1c1b2dc1bb131810cc8519919abc1139",
+          "rows": 35539,
+          "verified": true
+        }
+      },
+      "config_sha256": "cd3ae583e2001043bb8ff8b1e129544b06440ed1d80bf98fb09d6efbf38405fe",
+      "per_user_sha256": "a22b09b930dbf7ff6a8b5a8793283c09d450c3bca38b1138f033c2e70f989be0"
+    },
+    {
+      "dataset": "sports",
+      "variant": "no_rank_calibration",
+      "metrics": {
+        "ndcg@5": 0.03593927402211579,
+        "recall@5": 0.0514083119952728,
+        "ndcg@10": 0.042016509812591855,
+        "recall@10": 0.07028897830552351,
+        "ndcg@20": 0.04820793006697307,
+        "recall@20": 0.094853541180112
+      },
+      "users": 35539,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "e90df6401241237709a9386d91fd9c2f24eb132665e99e74d6f5af5e12b8b9a6",
+          "rows": 260739,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "2fb358ca824c8df1e655275ba13d106b1c1b2dc1bb131810cc8519919abc1139",
+          "rows": 35539,
+          "verified": true
+        }
+      },
+      "config_sha256": "cd3ae583e2001043bb8ff8b1e129544b06440ed1d80bf98fb09d6efbf38405fe",
+      "per_user_sha256": "bf09abfb3ef387ea034d931be23c8eb87d9bafd7dd4fb6c90ec9e77fff1a56de"
+    }
+  ],
+  "official_metrics": {
+    "recall@10": 0.0702327021019162,
+    "ndcg@10": 0.04197427692412665
+  },
+  "resources": {
+    "fitted_graph_reused": true,
+    "original_checkpoint": "results/test/sports/full/model",
+    "residual_and_serialization_seconds": 3.278739530999701,
+    "joint_six_variant_ranking_seconds": 106.75604796599964,
+    "total_seconds": 119.86752573600006,
+    "peak_rss_mib": 351.48828125,
+    "model_array_mib": 29.368572235107422,
+    "blas_threads": 1,
+    "gpu_used": false
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scipy": "1.12.0",
+      "rectools": "0.13.0",
+      "threadpoolctl": "3.6.0"
+    },
+    "source_sha256": "854a881a6151ff5e5b924f4165852a980d073340a2ab94fd147df0f2f6a322a2",
+    "command": [
+      "experiments/redesign_evaluate.py",
+      "--dataset",
+      "sports"
+    ]
+  },
+  "top20_target_ranks_verified": true,
+  "scope": "Exploratory study with historical test reuse; new revision frozen from internal validation."
+}

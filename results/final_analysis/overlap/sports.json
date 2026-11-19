@@ -1,0 +1,75 @@
+{
+  "dataset": "sports",
+  "n_items": 18284,
+  "tau": 15000.0,
+  "eta": 1.0,
+  "nnz": 585088,
+  "frac_edges_redundant": 0.40576289378691754,
+  "frac_mass_redundant": 0.5314300783575102,
+  "mass_weighted_gate": 0.8388059028716636,
+  "median_gate": 1.0,
+  "edge_weighted_gate_on_redundant": 0.7803201631296905,
+  "deciles": [
+    {
+      "decile": 0,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.07357370669000558
+    },
+    {
+      "decile": 1,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.07755339728772062
+    },
+    {
+      "decile": 2,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.06497373202214476
+    },
+    {
+      "decile": 3,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.07359624738541194
+    },
+    {
+      "decile": 4,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.09398725619379081
+    },
+    {
+      "decile": 5,
+      "mean_Ac": 0.0023295439479512074,
+      "mean_gate": 0.9972992206065233,
+      "mass_share": 0.08810177992682486
+    },
+    {
+      "decile": 6,
+      "mean_Ac": 0.09778248436114838,
+      "mean_gate": 0.8939550911330137,
+      "mass_share": 0.0903763652480394
+    },
+    {
+      "decile": 7,
+      "mean_Ac": 0.16113759005256037,
+      "mean_gate": 0.8361340518274638,
+      "mass_share": 0.10677884029932187
+    },
+    {
+      "decile": 8,
+      "mean_Ac": 0.24073628826530705,
+      "mean_gate": 0.7737016296539081,
+      "mass_share": 0.11543511774667944
+    },
+    {
+      "decile": 9,
+      "mean_Ac": 0.6703254718659717,
+      "mean_gate": 0.6075722134930877,
+      "mass_share": 0.21562355720006054
+    }
+  ],
+  "seconds": 10.2117591
+}

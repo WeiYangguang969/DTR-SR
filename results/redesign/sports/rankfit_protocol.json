@@ -1,0 +1,60 @@
+{
+  "utc": "2026-09-09T05:00:19.668117+00:00",
+  "dataset": "sports",
+  "split": "training-internal LOO; 80/20 SHA-256 user partition",
+  "sample_users": 8192,
+  "seed": 20260909,
+  "axes": [
+    [
+      "popularity",
+      -0.2,
+      0.2
+    ],
+    [
+      "path",
+      -1.0,
+      3.0
+    ],
+    [
+      "history_1",
+      0.0,
+      1.0
+    ],
+    [
+      "history_2",
+      0.0,
+      1.0
+    ],
+    [
+      "history_3",
+      0.0,
+      1.0
+    ],
+    [
+      "history_4",
+      0.0,
+      1.0
+    ],
+    [
+      "history_5",
+      0.0,
+      1.0
+    ]
+  ],
+  "coordinate_steps": 1,
+  "selection": "NDCG@10 on held-out internal users, including unchanged anchor",
+  "refit": "one selected axis re-estimated on all internal sampled users",
+  "data_sha256": {
+    "train.csv": {
+      "sha256": "e90df6401241237709a9386d91fd9c2f24eb132665e99e74d6f5af5e12b8b9a6",
+      "rows": 260739,
+      "verified": true
+    },
+    "holdout.csv": {
+      "sha256": "2fb358ca824c8df1e655275ba13d106b1c1b2dc1bb131810cc8519919abc1139",
+      "rows": 35539,
+      "verified": true
+    }
+  },
+  "optimizer": "event sweep over open stable-ranking intervals; isolated crossing ties are not optimized"
+}

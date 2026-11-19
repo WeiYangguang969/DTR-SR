@@ -1,0 +1,122 @@
+[
+  {
+    "dataset": "ml20m",
+    "eta": 0.0,
+    "variant": "ungated",
+    "ndcg10": 0.15805286480004632,
+    "recall10": 0.26728490022317075,
+    "seconds": 250.57996539999976
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 0.003,
+    "variant": "ungated",
+    "ndcg10": 0.12659015253772163,
+    "recall10": 0.2217912883958428,
+    "seconds": 264.0946412000003
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 0.003,
+    "variant": "full_gated",
+    "ndcg10": 0.15805319785853733,
+    "recall10": 0.26728490022317075,
+    "seconds": 268.8029511999998
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 0.01,
+    "variant": "ungated",
+    "ndcg10": 0.11841449787583606,
+    "recall10": 0.20848771116359355,
+    "seconds": 270.03948690000016
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 0.01,
+    "variant": "full_gated",
+    "ndcg10": 0.15806486409263998,
+    "recall10": 0.26729934493243485,
+    "seconds": 267.1185366999998
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 0.03,
+    "variant": "ungated",
+    "ndcg10": 0.112178644863364,
+    "recall10": 0.1984486382250341,
+    "seconds": 269.0873084
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 0.03,
+    "variant": "full_gated",
+    "ndcg10": 0.15806583303863064,
+    "recall10": 0.26729934493243485,
+    "seconds": 271.1187310999999
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 0.1,
+    "variant": "ungated",
+    "ndcg10": 0.10690630942566555,
+    "recall10": 0.1904318245834507,
+    "seconds": 270.51086750000013
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 0.1,
+    "variant": "full_gated",
+    "ndcg10": 0.15808287744055788,
+    "recall10": 0.26734267906022724,
+    "seconds": 1260.7851719999999
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 0.3,
+    "variant": "ungated",
+    "ndcg10": 0.1033365322588016,
+    "recall10": 0.18523172924836956,
+    "seconds": 1597.4325477000002
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 0.3,
+    "variant": "full_gated",
+    "ndcg10": 0.1580957298881151,
+    "recall10": 0.267313789641699,
+    "seconds": 1351.3613506000002
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 1.0,
+    "variant": "ungated",
+    "ndcg10": 0.10044106935021417,
+    "recall10": 0.18101387414324818,
+    "seconds": 288.9386037999993
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 1.0,
+    "variant": "full_gated",
+    "ndcg10": 0.15812440804231168,
+    "recall10": 0.26735712376949133,
+    "seconds": 281.85695920000035
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 3.0,
+    "variant": "ungated",
+    "ndcg10": 0.09812217027636808,
+    "recall10": 0.17793715106999183,
+    "seconds": 274.6178894000004
+  },
+  {
+    "dataset": "ml20m",
+    "eta": 3.0,
+    "variant": "full_gated",
+    "ndcg10": 0.1580726714614834,
+    "recall10": 0.2673643461241234,
+    "seconds": 268.17510240000047
+  }
+]

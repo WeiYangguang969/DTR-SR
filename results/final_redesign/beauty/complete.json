@@ -1,0 +1,201 @@
+{
+  "dataset": "beauty",
+  "records": [
+    {
+      "dataset": "beauty",
+      "variant": "full",
+      "metrics": {
+        "ndcg@5": 0.05876175118026907,
+        "recall@5": 0.0793778853480346,
+        "ndcg@10": 0.067515392870741,
+        "recall@10": 0.10649455425574829,
+        "ndcg@20": 0.07507010437011623,
+        "recall@20": 0.136479763345435
+      },
+      "users": 22311,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "956357e585c8c4ddf50ff4dd4331d7e046c1b42b8eaa13cc21c8b9dccee89795",
+          "rows": 176139,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "38dbedf2dedc6951be1d8a3d4f6b2d93aa7129ce5d4f0fcf0d17bee0e315f43a",
+          "rows": 22311,
+          "verified": true
+        }
+      },
+      "config_sha256": "a49eb7ff75e5e8a2ad8a785aabb9a0a8a3c7df6aec824fbcee0103a0f5be06eb",
+      "per_user_sha256": "a47f271531121c6817bf4c48cee92d1ebe49bd64671214ac98364b2ad4369a24"
+    },
+    {
+      "dataset": "beauty",
+      "variant": "no_path",
+      "metrics": {
+        "ndcg@5": 0.058170889907207216,
+        "recall@5": 0.07861592936219802,
+        "ndcg@10": 0.06638951097221324,
+        "recall@10": 0.10402940253686523,
+        "ndcg@20": 0.07303278651923473,
+        "recall@20": 0.13038411545874232
+      },
+      "users": 22311,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "956357e585c8c4ddf50ff4dd4331d7e046c1b42b8eaa13cc21c8b9dccee89795",
+          "rows": 176139,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "38dbedf2dedc6951be1d8a3d4f6b2d93aa7129ce5d4f0fcf0d17bee0e315f43a",
+          "rows": 22311,
+          "verified": true
+        }
+      },
+      "config_sha256": "a49eb7ff75e5e8a2ad8a785aabb9a0a8a3c7df6aec824fbcee0103a0f5be06eb",
+      "per_user_sha256": "77cedf0f94f8b41b1ee1c86b6ef29bad415a4c94785298f6e758cb9aefb22ed1"
+    },
+    {
+      "dataset": "beauty",
+      "variant": "no_uncertainty",
+      "metrics": {
+        "ndcg@5": 0.05876761957494306,
+        "recall@5": 0.0793778853480346,
+        "ndcg@10": 0.06753604353141116,
+        "recall@10": 0.10653937519609162,
+        "ndcg@20": 0.07507782492736331,
+        "recall@20": 0.136479763345435
+      },
+      "users": 22311,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "956357e585c8c4ddf50ff4dd4331d7e046c1b42b8eaa13cc21c8b9dccee89795",
+          "rows": 176139,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "38dbedf2dedc6951be1d8a3d4f6b2d93aa7129ce5d4f0fcf0d17bee0e315f43a",
+          "rows": 22311,
+          "verified": true
+        }
+      },
+      "config_sha256": "a49eb7ff75e5e8a2ad8a785aabb9a0a8a3c7df6aec824fbcee0103a0f5be06eb",
+      "per_user_sha256": "944659005726da262239d19cd74a58d25d7534c6c78229694f701b52304416a5"
+    },
+    {
+      "dataset": "beauty",
+      "variant": "no_conditional",
+      "metrics": {
+        "ndcg@5": 0.05876175118026907,
+        "recall@5": 0.0793778853480346,
+        "ndcg@10": 0.067515392870741,
+        "recall@10": 0.10649455425574829,
+        "ndcg@20": 0.07507010437011623,
+        "recall@20": 0.136479763345435
+      },
+      "users": 22311,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "956357e585c8c4ddf50ff4dd4331d7e046c1b42b8eaa13cc21c8b9dccee89795",
+          "rows": 176139,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "38dbedf2dedc6951be1d8a3d4f6b2d93aa7129ce5d4f0fcf0d17bee0e315f43a",
+          "rows": 22311,
+          "verified": true
+        }
+      },
+      "config_sha256": "a49eb7ff75e5e8a2ad8a785aabb9a0a8a3c7df6aec824fbcee0103a0f5be06eb",
+      "per_user_sha256": "a47f271531121c6817bf4c48cee92d1ebe49bd64671214ac98364b2ad4369a24"
+    },
+    {
+      "dataset": "beauty",
+      "variant": "independent_paths",
+      "metrics": {
+        "ndcg@5": 0.05876761957494306,
+        "recall@5": 0.0793778853480346,
+        "ndcg@10": 0.06753604353141116,
+        "recall@10": 0.10653937519609162,
+        "ndcg@20": 0.07507782492736331,
+        "recall@20": 0.136479763345435
+      },
+      "users": 22311,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "956357e585c8c4ddf50ff4dd4331d7e046c1b42b8eaa13cc21c8b9dccee89795",
+          "rows": 176139,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "38dbedf2dedc6951be1d8a3d4f6b2d93aa7129ce5d4f0fcf0d17bee0e315f43a",
+          "rows": 22311,
+          "verified": true
+        }
+      },
+      "config_sha256": "a49eb7ff75e5e8a2ad8a785aabb9a0a8a3c7df6aec824fbcee0103a0f5be06eb",
+      "per_user_sha256": "944659005726da262239d19cd74a58d25d7534c6c78229694f701b52304416a5"
+    },
+    {
+      "dataset": "beauty",
+      "variant": "no_rank_calibration",
+      "metrics": {
+        "ndcg@5": 0.058548344429868025,
+        "recall@5": 0.07915378064631796,
+        "ndcg@10": 0.06703781369214794,
+        "recall@10": 0.10546367262785174,
+        "ndcg@20": 0.07462894639129826,
+        "recall@20": 0.1355833445385684
+      },
+      "users": 22311,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "956357e585c8c4ddf50ff4dd4331d7e046c1b42b8eaa13cc21c8b9dccee89795",
+          "rows": 176139,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "38dbedf2dedc6951be1d8a3d4f6b2d93aa7129ce5d4f0fcf0d17bee0e315f43a",
+          "rows": 22311,
+          "verified": true
+        }
+      },
+      "config_sha256": "a49eb7ff75e5e8a2ad8a785aabb9a0a8a3c7df6aec824fbcee0103a0f5be06eb",
+      "per_user_sha256": "cd8540b80b2dc17628b03e73a44e9965a2df15828a23ee74f0fb62dad62459dd"
+    }
+  ],
+  "official_metrics": {
+    "recall@10": 0.10649455425574829,
+    "ndcg@10": 0.067515392870741
+  },
+  "resources": {
+    "fitted_graph_reused": true,
+    "original_checkpoint": "results/test/beauty/full/model",
+    "residual_and_serialization_seconds": 0.6990469049997046,
+    "joint_six_variant_ranking_seconds": 47.70941575500001,
+    "total_seconds": 54.195865423000214,
+    "peak_rss_mib": 271.0,
+    "model_array_mib": 23.07857894897461,
+    "blas_threads": 1,
+    "gpu_used": false
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scipy": "1.12.0",
+      "rectools": "0.13.0",
+      "threadpoolctl": "3.6.0"
+    },
+    "source_sha256": "854a881a6151ff5e5b924f4165852a980d073340a2ab94fd147df0f2f6a322a2",
+    "command": [
+      "experiments/redesign_evaluate.py",
+      "--dataset",
+      "beauty"
+    ]
+  },
+  "top20_target_ranks_verified": true,
+  "scope": "Exploratory study with historical test reuse; new revision frozen from internal validation."
+}

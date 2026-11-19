@@ -1,0 +1,61 @@
+{
+  "frozen_model": "final_model.json",
+  "official_variants": [
+    "pctm",
+    "seqrules",
+    "full",
+    "no_direction",
+    "no_history",
+    "no_path",
+    "neutral_prior",
+    "no_gate",
+    "renormalized",
+    "opposite_mask"
+  ],
+  "internal_variants": [
+    "full",
+    "no_path"
+  ],
+  "internal_cuts": [
+    1,
+    2,
+    3
+  ],
+  "strength_grid": [
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0,
+    10.0
+  ],
+  "fanout_grid": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "efficiency_repeats": 3,
+  "bootstrap_draws": 5000,
+  "sign_flip_draws": 20000,
+  "stat_seed": 2026,
+  "declaration": "Expanded experiment plan fixed before added runs. No hyperparameter changes based on these results.",
+  "original_model_freeze_utc": "2026-09-07T04:42:00.849936+00:00",
+  "stats_families": {
+    "path": [
+      "no_path"
+    ],
+    "components": [
+      "no_direction",
+      "no_history",
+      "neutral_prior",
+      "no_gate"
+    ],
+    "baselines": [
+      "pctm",
+      "seqrules"
+    ]
+  },
+  "efficiency_separate_from_saved_models": true,
+  "efficiency_workload": "All three timing runs are dedicated cases without checkpoint save/load; full-process RSS includes data, scoring, metric checking and diagnostics."
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "toys",
+  "model": "fmc_plus",
+  "k": 20,
+  "users": 19365,
+  "metrics": {
+    "ndcg@5": 0.052669287316694735,
+    "recall@5": 0.06935192357345726,
+    "ndcg@10": 0.058792629210453654,
+    "recall@10": 0.08851019881229022,
+    "ndcg@20": 0.06343230366224142,
+    "recall@20": 0.10684224115672605
+  },
+  "seconds": 15.350921000004746,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

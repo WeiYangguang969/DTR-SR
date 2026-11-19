@@ -1,0 +1,13 @@
+{
+  "dataset": "ml1m",
+  "model": "esasrec",
+  "metrics": {
+    "recall@10": 0.304736667770785,
+    "recall@20": 0.4176879761510434,
+    "ndcg@10": 0.173955409676947,
+    "ndcg@20": 0.2024511809205598
+  },
+  "seconds": 1219.422529500036,
+  "report": "metrics_report.csv",
+  "deviation": "evaluation depth K=20 in src/val_schemes/leave_one_out.py; training unchanged"
+}

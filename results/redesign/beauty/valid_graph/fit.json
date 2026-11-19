@@ -1,0 +1,11 @@
+{
+  "prior": "bt",
+  "iterations": 71,
+  "converged": true,
+  "termination": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "objective": 247062.64024526402,
+  "gradient_inf_norm": 0.12985075060816842,
+  "direction_seconds": 10.321112691000053,
+  "pair_support_nnz": 1006946,
+  "new_direction_edges": 484739
+}

@@ -1,0 +1,29 @@
+{
+  "dataset": "sports",
+  "variant": "no_history_scale",
+  "metrics": {
+    "ndcg@5": 0.03370909524379067,
+    "recall@5": 0.04856636371310392,
+    "ndcg@10": 0.039853046904536484,
+    "recall@10": 0.06758772053237289,
+    "ndcg@20": 0.04607739326667371,
+    "recall@20": 0.09232111201778329
+  },
+  "users": 35539,
+  "data_sha256": {
+    "train.csv": {
+      "sha256": "e90df6401241237709a9386d91fd9c2f24eb132665e99e74d6f5af5e12b8b9a6",
+      "rows": 260739,
+      "verified": true
+    },
+    "holdout.csv": {
+      "sha256": "2fb358ca824c8df1e655275ba13d106b1c1b2dc1bb131810cc8519919abc1139",
+      "rows": 35539,
+      "verified": true
+    }
+  },
+  "config_sha256": "cd3ae583e2001043bb8ff8b1e129544b06440ed1d80bf98fb09d6efbf38405fe",
+  "per_user_sha256": "72ff1375e3f387896c43c5f9ec4930d6f4acf7bdff7e5540cbfacb397b4639e9",
+  "seconds": 36.024855312,
+  "scope": "Fixed configuration deletion; fitted components reused where unaffected."
+}

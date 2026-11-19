@@ -1,0 +1,16 @@
+{
+  "dataset": "beauty",
+  "model": "mc",
+  "k": 20,
+  "users": 22311,
+  "metrics": {
+    "ndcg@5": 0.04446141290220176,
+    "recall@5": 0.057729371162206986,
+    "ndcg@10": 0.04917674433126107,
+    "recall@10": 0.07229617677378872,
+    "ndcg@20": 0.05263649925661282,
+    "recall@20": 0.08601138451884721
+  },
+  "seconds": 3.147631799976807,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

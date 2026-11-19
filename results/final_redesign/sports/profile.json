@@ -1,0 +1,35 @@
+{
+  "dataset": "sports",
+  "users": 35539,
+  "catalog_items": 18347,
+  "load_seconds": 0.2578829680005583,
+  "recommendation_seconds": [
+    26.58502794300057,
+    23.582544734000294,
+    22.05764246600029
+  ],
+  "mean_seconds": 24.075071714333717,
+  "std_seconds": 2.303528149188877,
+  "peak_rss_mib": 349.48828125,
+  "array_mib": 29.368633270263672,
+  "active_history_experts": 2,
+  "ranking_identity_verified": true,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scipy": "1.12.0",
+      "rectools": "0.13.0",
+      "threadpoolctl": "3.6.0"
+    },
+    "source_sha256": "eec8181c19c66cfd37fa3e0eeade781492a6c51ab8b1bf3685713a4d57ebddb8",
+    "command": [
+      "experiments/redesign_profile.py",
+      "--dataset",
+      "sports"
+    ]
+  },
+  "scope": "Loaded-model all-user top-20 recommendation; one CPU thread; repeats within one process; excludes data preparation, fitting and inner calibration."
+}

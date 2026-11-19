@@ -1,0 +1,60 @@
+{
+  "utc": "2026-09-09T04:53:54.441379+00:00",
+  "dataset": "ml1m",
+  "split": "training-internal LOO; 80/20 SHA-256 user partition",
+  "sample_users": 6040,
+  "seed": 20260909,
+  "axes": [
+    [
+      "popularity",
+      -0.2,
+      0.2
+    ],
+    [
+      "path",
+      -1.0,
+      3.0
+    ],
+    [
+      "history_1",
+      0.0,
+      1.0
+    ],
+    [
+      "history_2",
+      0.0,
+      1.0
+    ],
+    [
+      "history_3",
+      0.0,
+      1.0
+    ],
+    [
+      "history_4",
+      0.0,
+      1.0
+    ],
+    [
+      "history_5",
+      0.0,
+      1.0
+    ]
+  ],
+  "coordinate_steps": 1,
+  "selection": "NDCG@10 on held-out internal users, including unchanged anchor",
+  "refit": "one selected axis re-estimated on all internal sampled users",
+  "data_sha256": {
+    "train.csv": {
+      "sha256": "74afd9fcafba3e694195fe26c8ea486ec12dd16f22f0aaaa88cbcd66c960176a",
+      "rows": 994169,
+      "verified": true
+    },
+    "holdout.csv": {
+      "sha256": "83bf1681a6dc94a5e567fcca9bd5de44618ff4097f9a2172df840bdbcb15f478",
+      "rows": 6038,
+      "verified": true
+    }
+  },
+  "optimizer": "event sweep over open stable-ranking intervals; isolated crossing ties are not optimized"
+}

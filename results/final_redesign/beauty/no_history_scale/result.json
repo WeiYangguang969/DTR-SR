@@ -1,0 +1,29 @@
+{
+  "dataset": "beauty",
+  "variant": "no_history_scale",
+  "metrics": {
+    "ndcg@5": 0.057925302430597056,
+    "recall@5": 0.07857110842185469,
+    "ndcg@10": 0.06652902898870361,
+    "recall@10": 0.10523956792613509,
+    "ndcg@20": 0.07398730238167045,
+    "recall@20": 0.13491103043341848
+  },
+  "users": 22311,
+  "data_sha256": {
+    "train.csv": {
+      "sha256": "956357e585c8c4ddf50ff4dd4331d7e046c1b42b8eaa13cc21c8b9dccee89795",
+      "rows": 176139,
+      "verified": true
+    },
+    "holdout.csv": {
+      "sha256": "38dbedf2dedc6951be1d8a3d4f6b2d93aa7129ce5d4f0fcf0d17bee0e315f43a",
+      "rows": 22311,
+      "verified": true
+    }
+  },
+  "config_sha256": "a49eb7ff75e5e8a2ad8a785aabb9a0a8a3c7df6aec824fbcee0103a0f5be06eb",
+  "per_user_sha256": "510f532653391ae82f438e3f695b4689e5a672ce39dca7ad2e479825f40d0d76",
+  "seconds": 42.280260606999946,
+  "scope": "Fixed configuration deletion; fitted components reused where unaffected."
+}

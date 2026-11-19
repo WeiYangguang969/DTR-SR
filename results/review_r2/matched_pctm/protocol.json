@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-24T05:42:20.718971+00:00",
+  "purpose": "Give PCTM the calibration budget DPT-SR received (review r2, Major).",
+  "pctm_as_special_case": "kappa=0, pair_penalty=0, exposure_power=0, power=0, completion strength=0",
+  "split": "training-internal LOO; 8192-user sample (seed 20260909); 80/20 SHA-256 user partition",
+  "axes": "popularity offset in (-0.2,0.2); history_i weight in (0,1) with remainder on kernel 0; path axis void at eta=0; anchor kept if best",
+  "optimizer": "event sweep over open stable-ranking intervals (dpt_sr/rank_calibration.py)",
+  "test": "selected coordinate frozen, evaluated once; paired bootstrap and sign-flip on user NDCG@10",
+  "script_sha256": "de26bb37d907e1dee2a9861d3bd6f605a70f5fab2555d0cd3844aede5aeb5735",
+  "script": "experiments/review_matched_pctm.py",
+  "relocation": "Script moved from a session scratch folder into the repository on 2026-09-24; only file paths and command-line options changed. Re-running it on beauty and ml1m reproduces inner_fit.json, test.json and per_user.npz exactly.",
+  "companions": [
+    "experiments/review_matched_pctm_ties.py",
+    "experiments/review_matched_pctm_table.py"
+  ]
+}

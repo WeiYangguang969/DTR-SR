@@ -1,0 +1,272 @@
+[
+  {
+    "dataset": "beauty",
+    "bin": "(0,1]",
+    "estimator": "empirical",
+    "events": 11787,
+    "weight": 7115.652840316296,
+    "brier": 0.29088729743046765,
+    "logloss": 7.925429003471356
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(0,1]",
+    "estimator": "laplace",
+    "events": 11787,
+    "weight": 7115.652840316296,
+    "brier": 0.21743938994907688,
+    "logloss": 0.627001792926916
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(0,1]",
+    "estimator": "jeffreys",
+    "events": 11787,
+    "weight": 7115.652840316296,
+    "brier": 0.2110794440789008,
+    "logloss": 0.6137805132297637
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(0,1]",
+    "estimator": "neutral",
+    "events": 11787,
+    "weight": 7115.652840316296,
+    "brier": 0.2110794440789008,
+    "logloss": 0.6137805132297637
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(0,1]",
+    "estimator": "bt_prior",
+    "events": 11787,
+    "weight": 7115.652840316296,
+    "brier": 0.1948571587300361,
+    "logloss": 0.565816975283191
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(0,1]",
+    "estimator": "bt_shrinkage",
+    "events": 11787,
+    "weight": 7115.652840316296,
+    "brier": 0.18926754870127013,
+    "logloss": 0.551685291030976
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(1,3]",
+    "estimator": "empirical",
+    "events": 6265,
+    "weight": 3947.1612179279327,
+    "brier": 0.19323416353697714,
+    "logloss": 3.144539182150344
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(1,3]",
+    "estimator": "laplace",
+    "events": 6265,
+    "weight": 3947.1612179279327,
+    "brier": 0.18154641062054203,
+    "logloss": 0.5482275489400198
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(1,3]",
+    "estimator": "jeffreys",
+    "events": 6265,
+    "weight": 3947.1612179279327,
+    "brier": 0.174644960655848,
+    "logloss": 0.5296844649658671
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(1,3]",
+    "estimator": "neutral",
+    "events": 6265,
+    "weight": 3947.1612179279327,
+    "brier": 0.174644960655848,
+    "logloss": 0.5296844649658671
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(1,3]",
+    "estimator": "bt_prior",
+    "events": 6265,
+    "weight": 3947.1612179279327,
+    "brier": 0.19042991853128388,
+    "logloss": 0.5615451611491783
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(1,3]",
+    "estimator": "bt_shrinkage",
+    "events": 6265,
+    "weight": 3947.1612179279327,
+    "brier": 0.1662207138947956,
+    "logloss": 0.5014986078181412
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(3,10]",
+    "estimator": "empirical",
+    "events": 3754,
+    "weight": 2444.1904657781124,
+    "brier": 0.1575654814241891,
+    "logloss": 1.1798199326096432
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(3,10]",
+    "estimator": "laplace",
+    "events": 3754,
+    "weight": 2444.1904657781124,
+    "brier": 0.15671617890671308,
+    "logloss": 0.4863195961137315
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(3,10]",
+    "estimator": "jeffreys",
+    "events": 3754,
+    "weight": 2444.1904657781124,
+    "brier": 0.15416772709802656,
+    "logloss": 0.47758907488288793
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(3,10]",
+    "estimator": "neutral",
+    "events": 3754,
+    "weight": 2444.1904657781124,
+    "brier": 0.15416772709802656,
+    "logloss": 0.47758907488288793
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(3,10]",
+    "estimator": "bt_prior",
+    "events": 3754,
+    "weight": 2444.1904657781124,
+    "brier": 0.2115210392980276,
+    "logloss": 0.6109778179329534
+  },
+  {
+    "dataset": "beauty",
+    "bin": "(3,10]",
+    "estimator": "bt_shrinkage",
+    "events": 3754,
+    "weight": 2444.1904657781124,
+    "brier": 0.1531797014947721,
+    "logloss": 0.4738940299135725
+  },
+  {
+    "dataset": "beauty",
+    "bin": ">10",
+    "estimator": "empirical",
+    "events": 1718,
+    "weight": 1217.433797299862,
+    "brier": 0.14929454083019802,
+    "logloss": 0.6531376039539186
+  },
+  {
+    "dataset": "beauty",
+    "bin": ">10",
+    "estimator": "laplace",
+    "events": 1718,
+    "weight": 1217.433797299862,
+    "brier": 0.14813915545097087,
+    "logloss": 0.4645135570573534
+  },
+  {
+    "dataset": "beauty",
+    "bin": ">10",
+    "estimator": "jeffreys",
+    "events": 1718,
+    "weight": 1217.433797299862,
+    "brier": 0.14833731072513368,
+    "logloss": 0.4673305150383611
+  },
+  {
+    "dataset": "beauty",
+    "bin": ">10",
+    "estimator": "neutral",
+    "events": 1718,
+    "weight": 1217.433797299862,
+    "brier": 0.14833731072513368,
+    "logloss": 0.4673305150383611
+  },
+  {
+    "dataset": "beauty",
+    "bin": ">10",
+    "estimator": "bt_prior",
+    "events": 1718,
+    "weight": 1217.433797299862,
+    "brier": 0.2151654613222137,
+    "logloss": 0.6207152644114466
+  },
+  {
+    "dataset": "beauty",
+    "bin": ">10",
+    "estimator": "bt_shrinkage",
+    "events": 1718,
+    "weight": 1217.433797299862,
+    "brier": 0.14833441214666776,
+    "logloss": 0.4683414385618036
+  },
+  {
+    "dataset": "beauty",
+    "bin": "all",
+    "estimator": "empirical",
+    "events": 23524,
+    "weight": 14724.438321322203,
+    "brier": 0.23087167153493615,
+    "logloss": 4.92279972583472
+  },
+  {
+    "dataset": "beauty",
+    "bin": "all",
+    "estimator": "laplace",
+    "events": 23524,
+    "weight": 14724.438321322203,
+    "brier": 0.19200800106008914,
+    "logloss": 0.5690975539741291
+  },
+  {
+    "dataset": "beauty",
+    "bin": "all",
+    "estimator": "jeffreys",
+    "events": 23524,
+    "weight": 14724.438321322203,
+    "brier": 0.18667781721767773,
+    "logloss": 0.5565211710103657
+  },
+  {
+    "dataset": "beauty",
+    "bin": "all",
+    "estimator": "neutral",
+    "events": 23524,
+    "weight": 14724.438321322203,
+    "brier": 0.18667781721767773,
+    "logloss": 0.5565211710103657
+  },
+  {
+    "dataset": "beauty",
+    "bin": "all",
+    "estimator": "bt_prior",
+    "events": 23524,
+    "weight": 14724.438321322203,
+    "brier": 0.19811559752998786,
+    "logloss": 0.5767073869274542
+  },
+  {
+    "dataset": "beauty",
+    "bin": "all",
+    "estimator": "bt_shrinkage",
+    "events": 23524,
+    "weight": 14724.438321322203,
+    "brier": 0.1737145935738662,
+    "logloss": 0.5184278451111427
+  }
+]

@@ -1,0 +1,155 @@
+{
+  "dataset": "sports",
+  "spec": {
+    "dpt": {
+      "kappa": 0.0,
+      "power": 0.0,
+      "ridge": 1.0,
+      "maxiter": 200,
+      "ftol": 1e-09,
+      "prior": "bt"
+    },
+    "calibration": {
+      "pair_penalty": 0.0,
+      "exposure_power": 0.0
+    },
+    "completion": {
+      "strength": 0.0,
+      "fanout": 32,
+      "exclude_observed": false,
+      "renormalize_paths": false,
+      "row_restore": 0.0
+    },
+    "pctm": {
+      "counts": "inv:10:0.5",
+      "tau": 15000.0,
+      "kernel": "tail:10:0.8:0.7",
+      "pop_boost": 0.0
+    },
+    "seqrules": {
+      "rules": {
+        "steps": 30,
+        "weighting": "log",
+        "pruning": 0,
+        "idf_weight": false
+      },
+      "history_length": 20,
+      "history_weighting": "div"
+    },
+    "max_history": 50
+  },
+  "kernels": [
+    "tail:10:0.8:0.7",
+    "last",
+    "exp:0.3",
+    "exp:0.6",
+    "exp:0.85",
+    "inv:0.5"
+  ],
+  "weights": [
+    0.9060975778227696,
+    0.09390242217723047,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ],
+  "prior": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ],
+  "selected_axis": "history_1",
+  "refit_parameter": 0.09390242217723047,
+  "validation_ndcg": {
+    "popularity": 0.037027139082802224,
+    "history_1": 0.03779693620266767,
+    "history_2": 0.037186343201244365,
+    "history_3": 0.03704963675639956,
+    "history_4": 0.036830981951102716,
+    "history_5": 0.0368202694471773,
+    "fixed": 0.0368202694471773
+  },
+  "axis_fits": {
+    "popularity": {
+      "parameter": -0.022391093194479898,
+      "train_ndcg": 0.04251081318556275,
+      "validation_ndcg": 0.037027139082802224,
+      "retained_events": 6106
+    },
+    "history_1": {
+      "parameter": 0.09390242217723047,
+      "train_ndcg": 0.04249264727425635,
+      "validation_ndcg": 0.03779693620266767,
+      "retained_events": 1758
+    },
+    "history_2": {
+      "parameter": 0.18336474582662587,
+      "train_ndcg": 0.04254359750801871,
+      "validation_ndcg": 0.037186343201244365,
+      "retained_events": 1441
+    },
+    "history_3": {
+      "parameter": 0.8725595417812464,
+      "train_ndcg": 0.04257472462138753,
+      "validation_ndcg": 0.03704963675639956,
+      "retained_events": 508
+    },
+    "history_4": {
+      "parameter": 0.005934800137736529,
+      "train_ndcg": 0.041867658479668834,
+      "validation_ndcg": 0.036830981951102716,
+      "retained_events": 904
+    },
+    "history_5": {
+      "parameter": 0.0013010495964807186,
+      "train_ndcg": 0.04186646722179762,
+      "validation_ndcg": 0.0368202694471773,
+      "retained_events": 706
+    }
+  },
+  "validation_selected_metrics": {
+    "ndcg@5": 0.03234959130535951,
+    "recall@5": 0.043764988009592325,
+    "ndcg@10": 0.03779693620266767,
+    "recall@10": 0.06115107913669065,
+    "ndcg@20": 0.045380479993104954,
+    "recall@20": 0.09112709832134293
+  },
+  "validation_users": 1668,
+  "fit_users": 6524,
+  "inner_users": 8192,
+  "dpt_sr_reference": {
+    "selected_axis": "history_5",
+    "validation_ndcg": {
+      "popularity": 0.042064988331425295,
+      "path": 0.042699165280021406,
+      "history_1": 0.04250129923181372,
+      "history_2": 0.04205315143699191,
+      "history_3": 0.04207856172591237,
+      "history_4": 0.04222816425893861,
+      "history_5": 0.042724230627310504,
+      "fixed": 0.04256142526058
+    }
+  },
+  "data_sha256": {
+    "train.csv": {
+      "sha256": "e90df6401241237709a9386d91fd9c2f24eb132665e99e74d6f5af5e12b8b9a6",
+      "rows": 260739,
+      "verified": true
+    },
+    "holdout.csv": {
+      "sha256": "2fb358ca824c8df1e655275ba13d106b1c1b2dc1bb131810cc8519919abc1139",
+      "rows": 35539,
+      "verified": true
+    }
+  },
+  "seconds": 20.0046608
+}

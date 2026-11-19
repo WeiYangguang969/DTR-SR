@@ -1,0 +1,191 @@
+[
+  {
+    "dataset": "beauty",
+    "variant": "full",
+    "k": 5,
+    "ndcg": 0.05854799854083204,
+    "recall": 0.07915378064631796
+  },
+  {
+    "dataset": "beauty",
+    "variant": "full",
+    "k": 10,
+    "ndcg": 0.06706170790520237,
+    "recall": 0.10555331450853839
+  },
+  {
+    "dataset": "beauty",
+    "variant": "full",
+    "k": 20,
+    "ndcg": 0.07463971423427312,
+    "recall": 0.13562816547891174
+  },
+  {
+    "dataset": "beauty",
+    "variant": "pctm",
+    "k": 5,
+    "ndcg": 0.05553784061330471,
+    "recall": 0.07503025413473174
+  },
+  {
+    "dataset": "beauty",
+    "variant": "pctm",
+    "k": 10,
+    "ndcg": 0.06351669441168159,
+    "recall": 0.09981623414459236
+  },
+  {
+    "dataset": "beauty",
+    "variant": "pctm",
+    "k": 20,
+    "ndcg": 0.07017309326229133,
+    "recall": 0.12621576800681278
+  },
+  {
+    "dataset": "beauty",
+    "variant": "seqrules",
+    "k": 5,
+    "ndcg": 0.05279150488158611,
+    "recall": 0.0716238626686388
+  },
+  {
+    "dataset": "beauty",
+    "variant": "seqrules",
+    "k": 10,
+    "ndcg": 0.060476680242953246,
+    "recall": 0.09555824481197615
+  },
+  {
+    "dataset": "beauty",
+    "variant": "seqrules",
+    "k": 20,
+    "ndcg": 0.06700663459712174,
+    "recall": 0.12159921115144996
+  },
+  {
+    "dataset": "sports",
+    "variant": "full",
+    "k": 5,
+    "ndcg": 0.03594882522580808,
+    "recall": 0.05121134528264723
+  },
+  {
+    "dataset": "sports",
+    "variant": "full",
+    "k": 10,
+    "ndcg": 0.04225588301906436,
+    "recall": 0.07079546413798925
+  },
+  {
+    "dataset": "sports",
+    "variant": "full",
+    "k": 20,
+    "ndcg": 0.0483968483057591,
+    "recall": 0.09521933650355947
+  },
+  {
+    "dataset": "sports",
+    "variant": "pctm",
+    "k": 5,
+    "ndcg": 0.03147403038821782,
+    "recall": 0.045049100987647375
+  },
+  {
+    "dataset": "sports",
+    "variant": "pctm",
+    "k": 10,
+    "ndcg": 0.036794512955713954,
+    "recall": 0.06156616674639129
+  },
+  {
+    "dataset": "sports",
+    "variant": "pctm",
+    "k": 20,
+    "ndcg": 0.0424618259302381,
+    "recall": 0.08407664818931315
+  },
+  {
+    "dataset": "sports",
+    "variant": "seqrules",
+    "k": 5,
+    "ndcg": 0.03145414580441428,
+    "recall": 0.04507723908945103
+  },
+  {
+    "dataset": "sports",
+    "variant": "seqrules",
+    "k": 10,
+    "ndcg": 0.03712569073678912,
+    "recall": 0.06255100030951911
+  },
+  {
+    "dataset": "sports",
+    "variant": "seqrules",
+    "k": 20,
+    "ndcg": 0.04256450824574343,
+    "recall": 0.0841047862911168
+  },
+  {
+    "dataset": "toys",
+    "variant": "full",
+    "k": 5,
+    "ndcg": 0.06921708878228043,
+    "recall": 0.09532662019106636
+  },
+  {
+    "dataset": "toys",
+    "variant": "full",
+    "k": 10,
+    "ndcg": 0.07846476928130626,
+    "recall": 0.12388329460366641
+  },
+  {
+    "dataset": "toys",
+    "variant": "full",
+    "k": 20,
+    "ndcg": 0.08578983076977392,
+    "recall": 0.15285308546346502
+  },
+  {
+    "dataset": "toys",
+    "variant": "pctm",
+    "k": 5,
+    "ndcg": 0.06577992212543983,
+    "recall": 0.08830364058869093
+  },
+  {
+    "dataset": "toys",
+    "variant": "pctm",
+    "k": 10,
+    "ndcg": 0.07377001569106884,
+    "recall": 0.11303898786470436
+  },
+  {
+    "dataset": "toys",
+    "variant": "pctm",
+    "k": 20,
+    "ndcg": 0.08022806664095784,
+    "recall": 0.13854892847921507
+  },
+  {
+    "dataset": "toys",
+    "variant": "seqrules",
+    "k": 5,
+    "ndcg": 0.06420613099114647,
+    "recall": 0.08706429124709528
+  },
+  {
+    "dataset": "toys",
+    "variant": "seqrules",
+    "k": 10,
+    "ndcg": 0.07299674545893094,
+    "recall": 0.11422669765040021
+  },
+  {
+    "dataset": "toys",
+    "variant": "seqrules",
+    "k": 20,
+    "ndcg": 0.08001583127507259,
+    "recall": 0.14195713916860314
+  }
+]

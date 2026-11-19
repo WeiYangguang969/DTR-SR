@@ -1,0 +1,24 @@
+{
+  "dataset": "beauty",
+  "split": "training-only inner leave-one-out",
+  "unsupported": {
+    "events": 97166,
+    "fraction": 0.8050874140359598,
+    "weight_fraction": 0.799980886107046
+  },
+  "conditioning": "Supported non-self item pairs; binary temporal orientation, not next-item probability calibration",
+  "weights": "inv:10:0.5",
+  "diagnostics": {
+    "prior": "bt",
+    "iterations": 71,
+    "converged": true,
+    "termination": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+    "objective": 247062.63970533,
+    "gradient_inf_norm": 0.12985138970935928,
+    "direction_seconds": 2.2160942510000723,
+    "pair_support_nnz": 1006946,
+    "new_direction_edges": 484739
+  },
+  "kappa": 1.0,
+  "events_sha256": "a931d7e63e14fc6d21a4e2d7e3847ef8e283c63231035e54c069351a2614c667"
+}

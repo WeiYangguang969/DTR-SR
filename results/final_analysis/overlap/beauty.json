@@ -1,0 +1,75 @@
+{
+  "dataset": "beauty",
+  "n_items": 12068,
+  "tau": 11250.0,
+  "eta": 1.0,
+  "nnz": 771643,
+  "frac_edges_redundant": 0.0,
+  "frac_mass_redundant": 0.0,
+  "mass_weighted_gate": 1.0,
+  "median_gate": 1.0,
+  "edge_weighted_gate_on_redundant": null,
+  "deciles": [
+    {
+      "decile": 0,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.08421860956683651
+    },
+    {
+      "decile": 1,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.09173462872717014
+    },
+    {
+      "decile": 2,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.07913999005265235
+    },
+    {
+      "decile": 3,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.09101338548923261
+    },
+    {
+      "decile": 4,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.07740742957641321
+    },
+    {
+      "decile": 5,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.11262107377162792
+    },
+    {
+      "decile": 6,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.12877091194517062
+    },
+    {
+      "decile": 7,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.12654891005539023
+    },
+    {
+      "decile": 8,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.10416069801042493
+    },
+    {
+      "decile": 9,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.10438436280508098
+    }
+  ],
+  "seconds": 6.7473225
+}

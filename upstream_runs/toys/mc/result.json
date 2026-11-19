@@ -1,0 +1,16 @@
+{
+  "dataset": "toys",
+  "model": "mc",
+  "k": 20,
+  "users": 19365,
+  "metrics": {
+    "ndcg@5": 0.04998421691572973,
+    "recall@5": 0.06496256132197263,
+    "ndcg@10": 0.054778759467084166,
+    "recall@10": 0.07957655564162149,
+    "ndcg@20": 0.057514151557649,
+    "recall@20": 0.09031758326878389
+  },
+  "seconds": 2.749392599973362,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

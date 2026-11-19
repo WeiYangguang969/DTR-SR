@@ -1,0 +1,27 @@
+{
+  "dataset": "sports",
+  "variant": "no_rank_calibration",
+  "metrics": {
+    "ndcg@5": 0.03593927402211579,
+    "recall@5": 0.0514083119952728,
+    "ndcg@10": 0.042016509812591855,
+    "recall@10": 0.07028897830552351,
+    "ndcg@20": 0.04820793006697307,
+    "recall@20": 0.094853541180112
+  },
+  "users": 35539,
+  "data_sha256": {
+    "train.csv": {
+      "sha256": "e90df6401241237709a9386d91fd9c2f24eb132665e99e74d6f5af5e12b8b9a6",
+      "rows": 260739,
+      "verified": true
+    },
+    "holdout.csv": {
+      "sha256": "2fb358ca824c8df1e655275ba13d106b1c1b2dc1bb131810cc8519919abc1139",
+      "rows": 35539,
+      "verified": true
+    }
+  },
+  "config_sha256": "cd3ae583e2001043bb8ff8b1e129544b06440ed1d80bf98fb09d6efbf38405fe",
+  "per_user_sha256": "bf09abfb3ef387ea034d931be23c8eb87d9bafd7dd4fb6c90ec9e77fff1a56de"
+}

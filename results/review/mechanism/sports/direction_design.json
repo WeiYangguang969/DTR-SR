@@ -1,0 +1,24 @@
+{
+  "dataset": "sports",
+  "split": "training-only inner leave-one-out",
+  "unsupported": {
+    "events": 165302,
+    "fraction": 0.8707254377278186,
+    "weight_fraction": 0.8636699159523241
+  },
+  "conditioning": "Supported non-self item pairs; binary temporal orientation, not next-item probability calibration",
+  "weights": "inv:10:0.5",
+  "diagnostics": {
+    "prior": "bt",
+    "iterations": 91,
+    "converged": true,
+    "termination": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+    "objective": 348673.2285546683,
+    "gradient_inf_norm": 0.5781280774118251,
+    "direction_seconds": 3.8110891289999245,
+    "pair_support_nnz": 1583222,
+    "new_direction_edges": 767639
+  },
+  "kappa": 3.0,
+  "events_sha256": "fd6aea8797113e5d39a5b7b575730b8a7276be2b559eec3a201e3efb3248ef0e"
+}

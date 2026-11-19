@@ -1,0 +1,35 @@
+{
+  "dataset": "toys",
+  "users": 19365,
+  "catalog_items": 11917,
+  "load_seconds": 0.276971033999871,
+  "recommendation_seconds": [
+    9.224095947000023,
+    9.51062628499949,
+    9.508742362999328
+  ],
+  "mean_seconds": 9.414488198332947,
+  "std_seconds": 0.16488721695825906,
+  "peak_rss_mib": 239.640625,
+  "array_mib": 21.36215591430664,
+  "active_history_experts": 1,
+  "ranking_identity_verified": true,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scipy": "1.12.0",
+      "rectools": "0.13.0",
+      "threadpoolctl": "3.6.0"
+    },
+    "source_sha256": "eec8181c19c66cfd37fa3e0eeade781492a6c51ab8b1bf3685713a4d57ebddb8",
+    "command": [
+      "experiments/redesign_profile.py",
+      "--dataset",
+      "toys"
+    ]
+  },
+  "scope": "Loaded-model all-user top-20 recommendation; one CPU thread; repeats within one process; excludes data preparation, fitting and inner calibration."
+}

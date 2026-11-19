@@ -1,0 +1,27 @@
+{
+  "dataset": "toys",
+  "variant": "no_conditional",
+  "metrics": {
+    "ndcg@5": 0.06939443130289377,
+    "recall@5": 0.09558481797056545,
+    "ndcg@10": 0.07876005479037204,
+    "recall@10": 0.12450296927446423,
+    "ndcg@20": 0.08629689657952312,
+    "recall@20": 0.15429899302865996
+  },
+  "users": 19365,
+  "data_sha256": {
+    "train.csv": {
+      "sha256": "ca9191ea48da1bc4b9ed812354ae3b58a7b93f2417d4794142c9c9dc0230b356",
+      "rows": 148185,
+      "verified": true
+    },
+    "holdout.csv": {
+      "sha256": "ff18781f3e2784b1d4438bdd5a54be7fb75aa0f2d7d08f552271f135bf1ee7b8",
+      "rows": 19365,
+      "verified": true
+    }
+  },
+  "config_sha256": "9c3571e73da86d08b7a1fc0c1890b683055d6e1349a8a5f420b2bda3a47f6146",
+  "per_user_sha256": "7354235c0ae3f24b389d111cb7c7581a7fb2d825ea42907001ab3ab1f05fdc58"
+}

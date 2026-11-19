@@ -1,0 +1,13 @@
+{
+  "dataset": "sports",
+  "model": "sasrec_plus",
+  "metrics": {
+    "recall@10": 0.057458003883058,
+    "recall@20": 0.082951124117167,
+    "ndcg@10": 0.0323544167430233,
+    "ndcg@20": 0.0387581864842801
+  },
+  "seconds": 2010.4347960999585,
+  "report": "metrics_report.csv",
+  "deviation": "evaluation depth K=20 in src/val_schemes/leave_one_out.py; training unchanged"
+}

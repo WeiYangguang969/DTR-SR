@@ -1,0 +1,122 @@
+[
+  {
+    "dataset": "toys",
+    "eta": 0.0,
+    "variant": "ungated",
+    "ndcg10": 0.07924124648419195,
+    "recall10": 0.11966652858326429,
+    "seconds": 25.4433213
+  },
+  {
+    "dataset": "toys",
+    "eta": 0.003,
+    "variant": "ungated",
+    "ndcg10": 0.07922667575421301,
+    "recall10": 0.11966652858326429,
+    "seconds": 27.101937799999995
+  },
+  {
+    "dataset": "toys",
+    "eta": 0.003,
+    "variant": "full_gated",
+    "ndcg10": 0.07923209323165557,
+    "recall10": 0.11966652858326429,
+    "seconds": 26.266435299999998
+  },
+  {
+    "dataset": "toys",
+    "eta": 0.01,
+    "variant": "ungated",
+    "ndcg10": 0.07921544736165896,
+    "recall10": 0.11966652858326429,
+    "seconds": 26.12681210000001
+  },
+  {
+    "dataset": "toys",
+    "eta": 0.01,
+    "variant": "full_gated",
+    "ndcg10": 0.07922399735725903,
+    "recall10": 0.11971830985915492,
+    "seconds": 26.105390900000003
+  },
+  {
+    "dataset": "toys",
+    "eta": 0.03,
+    "variant": "ungated",
+    "ndcg10": 0.07925004981983873,
+    "recall10": 0.11992543496271749,
+    "seconds": 25.400677599999995
+  },
+  {
+    "dataset": "toys",
+    "eta": 0.03,
+    "variant": "full_gated",
+    "ndcg10": 0.07928274558960874,
+    "recall10": 0.11977009113504557,
+    "seconds": 25.9995634
+  },
+  {
+    "dataset": "toys",
+    "eta": 0.1,
+    "variant": "ungated",
+    "ndcg10": 0.07945624002810145,
+    "recall10": 0.12096106048053024,
+    "seconds": 26.228293500000007
+  },
+  {
+    "dataset": "toys",
+    "eta": 0.1,
+    "variant": "full_gated",
+    "ndcg10": 0.07962493305340168,
+    "recall10": 0.12080571665285833,
+    "seconds": 26.894868099999997
+  },
+  {
+    "dataset": "toys",
+    "eta": 0.3,
+    "variant": "ungated",
+    "ndcg10": 0.07993468094669431,
+    "recall10": 0.1224109362054681,
+    "seconds": 26.9035528
+  },
+  {
+    "dataset": "toys",
+    "eta": 0.3,
+    "variant": "full_gated",
+    "ndcg10": 0.0802538550102832,
+    "recall10": 0.12230737365368682,
+    "seconds": 26.334899699999994
+  },
+  {
+    "dataset": "toys",
+    "eta": 1.0,
+    "variant": "ungated",
+    "ndcg10": 0.08037421692405856,
+    "recall10": 0.12531068765534384,
+    "seconds": 26.76006769999998
+  },
+  {
+    "dataset": "toys",
+    "eta": 1.0,
+    "variant": "full_gated",
+    "ndcg10": 0.08115093330450314,
+    "recall10": 0.12443040596520298,
+    "seconds": 26.34872999999999
+  },
+  {
+    "dataset": "toys",
+    "eta": 3.0,
+    "variant": "ungated",
+    "ndcg10": 0.07911051337209439,
+    "recall10": 0.12613918806959404,
+    "seconds": 25.696053699999993
+  },
+  {
+    "dataset": "toys",
+    "eta": 3.0,
+    "variant": "full_gated",
+    "ndcg10": 0.08040237277349123,
+    "recall10": 0.12712303231151614,
+    "seconds": 25.85305920000002
+  }
+]

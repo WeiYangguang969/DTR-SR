@@ -1,0 +1,16 @@
+{
+  "dataset": "beauty",
+  "model": "seqrules",
+  "k": 20,
+  "users": 22311,
+  "metrics": {
+    "ndcg@5": 0.05279150488158611,
+    "recall@5": 0.0716238626686388,
+    "ndcg@10": 0.060476680242953246,
+    "recall@10": 0.09555824481197615,
+    "ndcg@20": 0.06700663459712174,
+    "recall@20": 0.12159921115144996
+  },
+  "seconds": 3.8254579000058584,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

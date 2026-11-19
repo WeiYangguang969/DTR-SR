@@ -1,0 +1,27 @@
+{
+  "dataset": "beauty",
+  "variant": "no_rank_calibration",
+  "metrics": {
+    "ndcg@5": 0.058548344429868025,
+    "recall@5": 0.07915378064631796,
+    "ndcg@10": 0.06703781369214794,
+    "recall@10": 0.10546367262785174,
+    "ndcg@20": 0.07462894639129826,
+    "recall@20": 0.1355833445385684
+  },
+  "users": 22311,
+  "data_sha256": {
+    "train.csv": {
+      "sha256": "956357e585c8c4ddf50ff4dd4331d7e046c1b42b8eaa13cc21c8b9dccee89795",
+      "rows": 176139,
+      "verified": true
+    },
+    "holdout.csv": {
+      "sha256": "38dbedf2dedc6951be1d8a3d4f6b2d93aa7129ce5d4f0fcf0d17bee0e315f43a",
+      "rows": 22311,
+      "verified": true
+    }
+  },
+  "config_sha256": "a49eb7ff75e5e8a2ad8a785aabb9a0a8a3c7df6aec824fbcee0103a0f5be06eb",
+  "per_user_sha256": "cd8540b80b2dc17628b03e73a44e9965a2df15828a23ee74f0fb62dad62459dd"
+}

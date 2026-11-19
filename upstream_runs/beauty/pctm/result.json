@@ -1,0 +1,16 @@
+{
+  "dataset": "beauty",
+  "model": "pctm",
+  "k": 20,
+  "users": 22311,
+  "metrics": {
+    "ndcg@5": 0.05553784061330471,
+    "recall@5": 0.07503025413473174,
+    "ndcg@10": 0.06351669441168159,
+    "recall@10": 0.09981623414459236,
+    "ndcg@20": 0.07017309326229133,
+    "recall@20": 0.12621576800681278
+  },
+  "seconds": 4.723320199991576,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

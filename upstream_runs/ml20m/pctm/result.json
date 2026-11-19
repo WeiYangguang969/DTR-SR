@@ -1,0 +1,16 @@
+{
+  "dataset": "ml20m",
+  "model": "pctm",
+  "k": 20,
+  "users": 138456,
+  "metrics": {
+    "ndcg@5": 0.12109433399519223,
+    "recall@5": 0.17214133009764834,
+    "ndcg@10": 0.14311938053078943,
+    "recall@10": 0.24047350782920204,
+    "ndcg@20": 0.16392572551695078,
+    "recall@20": 0.32293291731669266
+  },
+  "seconds": 400.3146142999758,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "beauty",
+  "model": "fmc",
+  "k": 20,
+  "users": 22311,
+  "metrics": {
+    "ndcg@5": 0.043025854237870434,
+    "recall@5": 0.0566536685939671,
+    "ndcg@10": 0.048106803594069734,
+    "recall@10": 0.0724306395948187,
+    "ndcg@20": 0.05279193995366334,
+    "recall@20": 0.09103132983729999
+  },
+  "seconds": 18.458347000007052,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

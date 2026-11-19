@@ -1,0 +1,16 @@
+{
+  "dataset": "ml20m",
+  "model": "mc",
+  "k": 20,
+  "users": 138456,
+  "metrics": {
+    "ndcg@5": 0.08893442941189701,
+    "recall@5": 0.12486277228866932,
+    "ndcg@10": 0.10501182733980856,
+    "recall@10": 0.17488588432426186,
+    "ndcg@20": 0.12123527305862611,
+    "recall@20": 0.23928179349396198
+  },
+  "seconds": 170.90149419999216,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

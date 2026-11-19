@@ -1,0 +1,16 @@
+{
+  "dataset": "ml1m",
+  "model": "fmc",
+  "k": 20,
+  "users": 6038,
+  "metrics": {
+    "ndcg@5": 0.09086430406723862,
+    "recall@5": 0.13232858562437894,
+    "ndcg@10": 0.11243746963835269,
+    "recall@10": 0.19956939383901953,
+    "ndcg@20": 0.13192635625994384,
+    "recall@20": 0.2767472673070553
+  },
+  "seconds": 127.61450299998978,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

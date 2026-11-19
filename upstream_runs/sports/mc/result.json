@@ -1,0 +1,16 @@
+{
+  "dataset": "sports",
+  "model": "mc",
+  "k": 20,
+  "users": 35539,
+  "metrics": {
+    "ndcg@5": 0.022043976271792855,
+    "recall@5": 0.02943245448662033,
+    "ndcg@10": 0.02512631269810142,
+    "recall@10": 0.038999409099862124,
+    "ndcg@20": 0.027312622872402624,
+    "recall@20": 0.04760966825177974
+  },
+  "seconds": 4.9489035999868065,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

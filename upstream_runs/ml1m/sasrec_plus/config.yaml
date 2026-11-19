@@ -1,0 +1,41 @@
+datasets:
+- ml_1m
+val_schemes:
+- leave_one_out
+models:
+- report_file_name: table1_ml1m_sasrec_plus
+  cls: SASRecModel
+  comment: _
+  fixed_parameters:
+    get_trainer_func: src.models.transformers.trainer.get_trainer
+    verbose: 1
+    deterministic: true
+    get_val_mask_func: src.models.transformers.trainer.get_val_mask_func_all
+  search_parameters:
+  - name: n_factors
+    choices:
+    - 64
+  - name: session_max_len
+    choices:
+    - 200
+  - name: n_blocks
+    choices:
+    - 2
+  - name: n_heads
+    choices:
+    - 1
+  - name: dropout_rate
+    choices:
+    - 0.1
+  - name: loss
+    choices:
+    - sampled_softmax
+  - name: n_negatives
+    choices:
+    - 256
+  - name: lr
+    choices:
+    - 0.001
+  - name: batch_size
+    choices:
+    - 128

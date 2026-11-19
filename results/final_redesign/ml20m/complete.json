@@ -1,0 +1,201 @@
+{
+  "dataset": "ml20m",
+  "records": [
+    {
+      "dataset": "ml20m",
+      "variant": "full",
+      "metrics": {
+        "ndcg@5": 0.12145196216495116,
+        "recall@5": 0.17260357080949904,
+        "ndcg@10": 0.14357890121279585,
+        "recall@10": 0.24128242907494077,
+        "ndcg@20": 0.16438513844705485,
+        "recall@20": 0.32375628358467673
+      },
+      "users": 138456,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "5392d0bd6cb40724a141f0419fd039064058f7a154f9a8c31d9659a221c16f82",
+          "rows": 19861770,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "b5da7afee4b9d24b7e6f6bcaea33d7d961ad63db19cf9a8df8faf63563e676d7",
+          "rows": 138456,
+          "verified": true
+        }
+      },
+      "config_sha256": "ddb0cca6b2c2b089bce2ee3708e09d8dced8c2aa5b6c1c3a32cbfe61d297c8d0",
+      "per_user_sha256": "197611e34da5bc884b99c06deca5646522b0cdfdbab56cdff48f3854be60d9b6"
+    },
+    {
+      "dataset": "ml20m",
+      "variant": "no_path",
+      "metrics": {
+        "ndcg@5": 0.12136462300295935,
+        "recall@5": 0.17253856820939503,
+        "ndcg@10": 0.14341690866727413,
+        "recall@10": 0.2409718610966661,
+        "ndcg@20": 0.164227754846613,
+        "recall@20": 0.323445715606402
+      },
+      "users": 138456,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "5392d0bd6cb40724a141f0419fd039064058f7a154f9a8c31d9659a221c16f82",
+          "rows": 19861770,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "b5da7afee4b9d24b7e6f6bcaea33d7d961ad63db19cf9a8df8faf63563e676d7",
+          "rows": 138456,
+          "verified": true
+        }
+      },
+      "config_sha256": "ddb0cca6b2c2b089bce2ee3708e09d8dced8c2aa5b6c1c3a32cbfe61d297c8d0",
+      "per_user_sha256": "432e510afc031194cd92bb0156f497c007189e79d9727d8ab25f36abf94f031c"
+    },
+    {
+      "dataset": "ml20m",
+      "variant": "no_uncertainty",
+      "metrics": {
+        "ndcg@5": 0.1198493460359692,
+        "recall@5": 0.17102184087363495,
+        "ndcg@10": 0.14172172123752252,
+        "recall@10": 0.23893511296007397,
+        "ndcg@20": 0.1625422667954726,
+        "recall@20": 0.3215389726700179
+      },
+      "users": 138456,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "5392d0bd6cb40724a141f0419fd039064058f7a154f9a8c31d9659a221c16f82",
+          "rows": 19861770,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "b5da7afee4b9d24b7e6f6bcaea33d7d961ad63db19cf9a8df8faf63563e676d7",
+          "rows": 138456,
+          "verified": true
+        }
+      },
+      "config_sha256": "ddb0cca6b2c2b089bce2ee3708e09d8dced8c2aa5b6c1c3a32cbfe61d297c8d0",
+      "per_user_sha256": "3a78fd36ce9d39fcaaea0d2cd56e4fea5681251bd900c87f970cae0c880f2651"
+    },
+    {
+      "dataset": "ml20m",
+      "variant": "no_conditional",
+      "metrics": {
+        "ndcg@5": 0.0914787671803065,
+        "recall@5": 0.13172415785520308,
+        "ndcg@10": 0.11060420961154054,
+        "recall@10": 0.19134598717282025,
+        "ndcg@20": 0.13100774689554223,
+        "recall@20": 0.27239700699139074
+      },
+      "users": 138456,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "5392d0bd6cb40724a141f0419fd039064058f7a154f9a8c31d9659a221c16f82",
+          "rows": 19861770,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "b5da7afee4b9d24b7e6f6bcaea33d7d961ad63db19cf9a8df8faf63563e676d7",
+          "rows": 138456,
+          "verified": true
+        }
+      },
+      "config_sha256": "ddb0cca6b2c2b089bce2ee3708e09d8dced8c2aa5b6c1c3a32cbfe61d297c8d0",
+      "per_user_sha256": "caad6a016af1ac888149588982de2c1658f0409fe7ee5fe7d9d46cce09036509"
+    },
+    {
+      "dataset": "ml20m",
+      "variant": "independent_paths",
+      "metrics": {
+        "ndcg@5": 0.07863210535145294,
+        "recall@5": 0.114563471427746,
+        "ndcg@10": 0.09562476785316486,
+        "recall@10": 0.1674539203790374,
+        "ndcg@20": 0.11379012348810738,
+        "recall@20": 0.23973681169469002
+      },
+      "users": 138456,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "5392d0bd6cb40724a141f0419fd039064058f7a154f9a8c31d9659a221c16f82",
+          "rows": 19861770,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "b5da7afee4b9d24b7e6f6bcaea33d7d961ad63db19cf9a8df8faf63563e676d7",
+          "rows": 138456,
+          "verified": true
+        }
+      },
+      "config_sha256": "ddb0cca6b2c2b089bce2ee3708e09d8dced8c2aa5b6c1c3a32cbfe61d297c8d0",
+      "per_user_sha256": "9466627545c54087bb76503410e903926f6acea302242e44dab6e271ba2f74d2"
+    },
+    {
+      "dataset": "ml20m",
+      "variant": "no_rank_calibration",
+      "metrics": {
+        "ndcg@5": 0.12143970552835207,
+        "recall@5": 0.17263246085398973,
+        "ndcg@10": 0.14356914572423876,
+        "recall@10": 0.24131131911943143,
+        "ndcg@20": 0.1643116170939323,
+        "recall@20": 0.32351071820650606
+      },
+      "users": 138456,
+      "data_sha256": {
+        "train.csv": {
+          "sha256": "5392d0bd6cb40724a141f0419fd039064058f7a154f9a8c31d9659a221c16f82",
+          "rows": 19861770,
+          "verified": true
+        },
+        "holdout.csv": {
+          "sha256": "b5da7afee4b9d24b7e6f6bcaea33d7d961ad63db19cf9a8df8faf63563e676d7",
+          "rows": 138456,
+          "verified": true
+        }
+      },
+      "config_sha256": "ddb0cca6b2c2b089bce2ee3708e09d8dced8c2aa5b6c1c3a32cbfe61d297c8d0",
+      "per_user_sha256": "4cea9f936364992486446dbdf78fff296c53da81bf532b181685aaa32cdbb87c"
+    }
+  ],
+  "official_metrics": {
+    "recall@10": 0.24128242907494077,
+    "ndcg@10": 0.14357890121279585
+  },
+  "resources": {
+    "fitted_graph_reused": true,
+    "original_checkpoint": "results/review/external/ml20m/full/model",
+    "residual_and_serialization_seconds": 39.08494457599954,
+    "joint_six_variant_ranking_seconds": 1345.8747497930008,
+    "total_seconds": 1593.362930590999,
+    "peak_rss_mib": 3737.49609375,
+    "model_array_mib": 444.33920669555664,
+    "blas_threads": 1,
+    "gpu_used": false
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scipy": "1.12.0",
+      "rectools": "0.13.0",
+      "threadpoolctl": "3.6.0"
+    },
+    "source_sha256": "45545a43f1f68c9752dc5b6321a42759be87089fde3b5486ca216048744bb9a8",
+    "command": [
+      "experiments/redesign_evaluate.py",
+      "--dataset",
+      "ml20m"
+    ]
+  },
+  "top20_target_ranks_verified": true,
+  "scope": "Exploratory study with historical test reuse; new revision frozen from internal validation."
+}

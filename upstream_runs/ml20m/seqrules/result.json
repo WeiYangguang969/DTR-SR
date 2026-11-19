@@ -1,0 +1,16 @@
+{
+  "dataset": "ml20m",
+  "model": "seqrules",
+  "k": 20,
+  "users": 138456,
+  "metrics": {
+    "ndcg@5": 0.09315601060745156,
+    "recall@5": 0.13173138036632576,
+    "ndcg@10": 0.11152513006962173,
+    "recall@10": 0.1887458831686601,
+    "ndcg@20": 0.1296169574658866,
+    "recall@20": 0.2605087536834807
+  },
+  "seconds": 81.00958329997957,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

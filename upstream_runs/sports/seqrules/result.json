@@ -1,0 +1,16 @@
+{
+  "dataset": "sports",
+  "model": "seqrules",
+  "k": 20,
+  "users": 35539,
+  "metrics": {
+    "ndcg@5": 0.03145414580441428,
+    "recall@5": 0.04507723908945103,
+    "ndcg@10": 0.03712569073678912,
+    "recall@10": 0.06255100030951911,
+    "ndcg@20": 0.04256450824574343,
+    "recall@20": 0.0841047862911168
+  },
+  "seconds": 43.32580260001123,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

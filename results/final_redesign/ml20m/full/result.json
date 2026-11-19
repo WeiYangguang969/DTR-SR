@@ -1,0 +1,27 @@
+{
+  "dataset": "ml20m",
+  "variant": "full",
+  "metrics": {
+    "ndcg@5": 0.12145196216495116,
+    "recall@5": 0.17260357080949904,
+    "ndcg@10": 0.14357890121279585,
+    "recall@10": 0.24128242907494077,
+    "ndcg@20": 0.16438513844705485,
+    "recall@20": 0.32375628358467673
+  },
+  "users": 138456,
+  "data_sha256": {
+    "train.csv": {
+      "sha256": "5392d0bd6cb40724a141f0419fd039064058f7a154f9a8c31d9659a221c16f82",
+      "rows": 19861770,
+      "verified": true
+    },
+    "holdout.csv": {
+      "sha256": "b5da7afee4b9d24b7e6f6bcaea33d7d961ad63db19cf9a8df8faf63563e676d7",
+      "rows": 138456,
+      "verified": true
+    }
+  },
+  "config_sha256": "ddb0cca6b2c2b089bce2ee3708e09d8dced8c2aa5b6c1c3a32cbfe61d297c8d0",
+  "per_user_sha256": "197611e34da5bc884b99c06deca5646522b0cdfdbab56cdff48f3854be60d9b6"
+}

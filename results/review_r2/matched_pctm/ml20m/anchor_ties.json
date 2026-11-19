@@ -1,0 +1,40 @@
+{
+  "dataset": "ml20m",
+  "users": 138456,
+  "mismatched_users": 3,
+  "cases": [
+    {
+      "row": 15804,
+      "user_id": 15808,
+      "rank_single": 13,
+      "rank_double": 14,
+      "upstream_rank_in_top20": 13,
+      "items_flipping": 1,
+      "max_gap": 1.5020426520351293e-06,
+      "single_precision_ulp": 9.5367431640625e-07,
+      "max_gap_in_ulp": 1.5750058759003878
+    },
+    {
+      "row": 98063,
+      "user_id": 98088,
+      "rank_single": 8,
+      "rank_double": 7,
+      "upstream_rank_in_top20": 8,
+      "items_flipping": 1,
+      "max_gap": 4.305326406495169e-08,
+      "single_precision_ulp": 9.5367431640625e-07,
+      "max_gap_in_ulp": 0.045144619420170784
+    },
+    {
+      "row": 137982,
+      "user_id": 138020,
+      "rank_single": 20,
+      "rank_double": 19,
+      "upstream_rank_in_top20": 20,
+      "items_flipping": 1,
+      "max_gap": 1.2968122948819882e-06,
+      "single_precision_ulp": 9.5367431640625e-07,
+      "max_gap_in_ulp": 1.3598062489181757
+    }
+  ]
+}

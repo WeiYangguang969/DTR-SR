@@ -1,0 +1,35 @@
+{
+  "dataset": "ml20m",
+  "users": 138456,
+  "catalog_items": 26707,
+  "load_seconds": 4.267580929001269,
+  "recommendation_seconds": [
+    588.3986523090007
+  ],
+  "mean_seconds": 588.3986523090007,
+  "std_seconds": null,
+  "peak_rss_mib": 3534.4375,
+  "array_mib": 444.3392677307129,
+  "active_history_experts": 2,
+  "ranking_identity_verified": true,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scipy": "1.12.0",
+      "rectools": "0.13.0",
+      "threadpoolctl": "3.6.0"
+    },
+    "source_sha256": "4ef01be389e19c4ea714a45b8fbff1e55b33676faf7bdcf331130614bdcc2c3e",
+    "command": [
+      "experiments/redesign_profile.py",
+      "--dataset",
+      "ml20m",
+      "--repeats",
+      "1"
+    ]
+  },
+  "scope": "Loaded-model all-user top-20 recommendation; one CPU thread; repeats within one process; excludes data preparation, fitting and inner calibration."
+}

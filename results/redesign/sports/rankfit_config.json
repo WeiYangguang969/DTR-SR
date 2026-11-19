@@ -1,0 +1,143 @@
+{
+  "dataset": "sports",
+  "spec": {
+    "dpt": {
+      "kappa": 3.0,
+      "power": 0.5,
+      "ridge": 1.0,
+      "maxiter": 200,
+      "ftol": 1e-09,
+      "prior": "bt"
+    },
+    "calibration": {
+      "pair_penalty": 0.5,
+      "exposure_power": 0.25
+    },
+    "completion": {
+      "strength": 1.0,
+      "fanout": 32,
+      "exclude_observed": false,
+      "renormalize_paths": false,
+      "row_restore": 0.0
+    },
+    "pctm": {
+      "counts": "inv:10:0.5",
+      "tau": 15000.0,
+      "kernel": "tail:10:0.8:0.7",
+      "pop_boost": 0.0
+    },
+    "seqrules": {
+      "rules": {
+        "steps": 30,
+        "weighting": "log",
+        "pruning": 0,
+        "idf_weight": false
+      },
+      "history_length": 20,
+      "history_weighting": "div"
+    },
+    "max_history": 50
+  },
+  "kernels": [
+    "tail:10:0.8:0.7",
+    "last",
+    "exp:0.3",
+    "exp:0.6",
+    "exp:0.85",
+    "inv:0.5"
+  ],
+  "weights": [
+    0.7677939265759245,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.2322060734240755,
+    1.0,
+    0.0
+  ],
+  "prior": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ],
+  "selected_axis": "history_5",
+  "refit_parameter": 0.2322060734240755,
+  "validation_ndcg": {
+    "popularity": 0.042064988331425295,
+    "path": 0.042699165280021406,
+    "history_1": 0.04250129923181372,
+    "history_2": 0.04205315143699191,
+    "history_3": 0.04207856172591237,
+    "history_4": 0.04222816425893861,
+    "history_5": 0.042724230627310504,
+    "fixed": 0.04256142526058
+  },
+  "axis_fits": {
+    "popularity": {
+      "parameter": -0.011074903833615516,
+      "train_ndcg": 0.04627911433830555,
+      "validation_ndcg": 0.042064988331425295,
+      "retained_events": 6884
+    },
+    "path": {
+      "parameter": 1.164492222423151,
+      "train_ndcg": 0.04623642796793803,
+      "validation_ndcg": 0.042699165280021406,
+      "retained_events": 1735
+    },
+    "history_1": {
+      "parameter": 0.04682128637866016,
+      "train_ndcg": 0.04607907314518094,
+      "validation_ndcg": 0.04250129923181372,
+      "retained_events": 2519
+    },
+    "history_2": {
+      "parameter": 0.08345936851318131,
+      "train_ndcg": 0.04605158163689405,
+      "validation_ndcg": 0.04205315143699191,
+      "retained_events": 1738
+    },
+    "history_3": {
+      "parameter": 0.3955479440744438,
+      "train_ndcg": 0.04601650703850396,
+      "validation_ndcg": 0.04207856172591237,
+      "retained_events": 544
+    },
+    "history_4": {
+      "parameter": 0.1727377578160218,
+      "train_ndcg": 0.04566729188544894,
+      "validation_ndcg": 0.04222816425893861,
+      "retained_events": 857
+    },
+    "history_5": {
+      "parameter": 0.26902061208289285,
+      "train_ndcg": 0.04568951434613343,
+      "validation_ndcg": 0.042724230627310504,
+      "retained_events": 612
+    }
+  },
+  "validation_selected_metrics": {
+    "ndcg@5": 0.03483294523938381,
+    "recall@5": 0.049160671462829736,
+    "ndcg@10": 0.042724230627310504,
+    "recall@10": 0.0737410071942446,
+    "ndcg@20": 0.0505021206169076,
+    "recall@20": 0.10491606714628297
+  },
+  "validation_users": 1668,
+  "fit_users": 6524,
+  "inner_users": 8192,
+  "seconds": 66.13437571400027,
+  "scope": "Inner-validation-selected model; historical test reuse is not erased.",
+  "algorithm_sha256": {
+    "dpt_sr/budget_model.py": "983997ffa5be25cb090f3e2b9e0f7f827d7a77d83f0230395ef8db3d5e83c4dc",
+    "dpt_sr/recency_calibration.py": "1bfabdc0933bb4c92a00414c0a4bd37e0c85ab54ac9a480e4f0fcb269798e516",
+    "dpt_sr/rank_calibration.py": "659275dece36297b690605927e8854239b9f3cfb7fa7945cd712aba11b3807ba"
+  }
+}

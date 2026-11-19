@@ -1,0 +1,75 @@
+{
+  "dataset": "toys",
+  "n_items": 11876,
+  "tau": 15000.0,
+  "eta": 1.0,
+  "nnz": 380015,
+  "frac_edges_redundant": 0.3942397010644317,
+  "frac_mass_redundant": 0.5446962873411164,
+  "mass_weighted_gate": 0.8841095451275758,
+  "median_gate": 1.0,
+  "edge_weighted_gate_on_redundant": 0.8540617154386902,
+  "deciles": [
+    {
+      "decile": 0,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.0706391797559781
+    },
+    {
+      "decile": 1,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.07234397981100832
+    },
+    {
+      "decile": 2,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.06431777209970285
+    },
+    {
+      "decile": 3,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.06837727276686995
+    },
+    {
+      "decile": 4,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.08557871735627078
+    },
+    {
+      "decile": 5,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.08875290167634226
+    },
+    {
+      "decile": 6,
+      "mean_Ac": 0.029070689903494498,
+      "mean_gate": 0.9778036003087887,
+      "mass_share": 0.10345945891034507
+    },
+    {
+      "decile": 7,
+      "mean_Ac": 0.117870700494647,
+      "mean_gate": 0.9150141749413291,
+      "mass_share": 0.10661692485594194
+    },
+    {
+      "decile": 8,
+      "mean_Ac": 0.2292699909225363,
+      "mean_gate": 0.8472063960474863,
+      "mass_share": 0.12599465499586898
+    },
+    {
+      "decile": 9,
+      "mean_Ac": 0.7096096168963554,
+      "mean_gate": 0.684663092364312,
+      "mass_share": 0.213919137771672
+    }
+  ],
+  "seconds": 5.2731308
+}

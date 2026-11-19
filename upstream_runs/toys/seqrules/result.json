@@ -1,0 +1,16 @@
+{
+  "dataset": "toys",
+  "model": "seqrules",
+  "k": 20,
+  "users": 19365,
+  "metrics": {
+    "ndcg@5": 0.06420613099114647,
+    "recall@5": 0.08706429124709528,
+    "ndcg@10": 0.07299674545893094,
+    "recall@10": 0.11422669765040021,
+    "ndcg@20": 0.08001583127507259,
+    "recall@20": 0.14195713916860314
+  },
+  "seconds": 4.313868800003547,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

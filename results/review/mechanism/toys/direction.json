@@ -1,0 +1,272 @@
+[
+  {
+    "dataset": "toys",
+    "bin": "(0,1]",
+    "estimator": "empirical",
+    "events": 13035,
+    "weight": 5923.470808195882,
+    "brier": 0.28830695200302586,
+    "logloss": 7.607459121574767
+  },
+  {
+    "dataset": "toys",
+    "bin": "(0,1]",
+    "estimator": "laplace",
+    "events": 13035,
+    "weight": 5923.470808195882,
+    "brier": 0.22442359483421306,
+    "logloss": 0.6410297816050367
+  },
+  {
+    "dataset": "toys",
+    "bin": "(0,1]",
+    "estimator": "jeffreys",
+    "events": 13035,
+    "weight": 5923.470808195882,
+    "brier": 0.21891266297862472,
+    "logloss": 0.6293019857671595
+  },
+  {
+    "dataset": "toys",
+    "bin": "(0,1]",
+    "estimator": "neutral",
+    "events": 13035,
+    "weight": 5923.470808195882,
+    "brier": 0.21891266297862472,
+    "logloss": 0.6293019857671595
+  },
+  {
+    "dataset": "toys",
+    "bin": "(0,1]",
+    "estimator": "bt_prior",
+    "events": 13035,
+    "weight": 5923.470808195882,
+    "brier": 0.21434323015535522,
+    "logloss": 0.6163547757525819
+  },
+  {
+    "dataset": "toys",
+    "bin": "(0,1]",
+    "estimator": "bt_shrinkage",
+    "events": 13035,
+    "weight": 5923.470808195882,
+    "brier": 0.19637206203992277,
+    "logloss": 0.5791639865918444
+  },
+  {
+    "dataset": "toys",
+    "bin": "(1,3]",
+    "estimator": "empirical",
+    "events": 3240,
+    "weight": 2028.6550698050996,
+    "brier": 0.1907093780729039,
+    "logloss": 2.9287811940003996
+  },
+  {
+    "dataset": "toys",
+    "bin": "(1,3]",
+    "estimator": "laplace",
+    "events": 3240,
+    "weight": 2028.6550698050996,
+    "brier": 0.17615487106596597,
+    "logloss": 0.5359025914530086
+  },
+  {
+    "dataset": "toys",
+    "bin": "(1,3]",
+    "estimator": "jeffreys",
+    "events": 3240,
+    "weight": 2028.6550698050996,
+    "brier": 0.16926006115264006,
+    "logloss": 0.5162818652197766
+  },
+  {
+    "dataset": "toys",
+    "bin": "(1,3]",
+    "estimator": "neutral",
+    "events": 3240,
+    "weight": 2028.6550698050996,
+    "brier": 0.16926006115264006,
+    "logloss": 0.5162818652197766
+  },
+  {
+    "dataset": "toys",
+    "bin": "(1,3]",
+    "estimator": "bt_prior",
+    "events": 3240,
+    "weight": 2028.6550698050996,
+    "brier": 0.22899710405960394,
+    "logloss": 0.6504169751648244
+  },
+  {
+    "dataset": "toys",
+    "bin": "(1,3]",
+    "estimator": "bt_shrinkage",
+    "events": 3240,
+    "weight": 2028.6550698050996,
+    "brier": 0.16847415552736603,
+    "logloss": 0.5173948045356046
+  },
+  {
+    "dataset": "toys",
+    "bin": "(3,10]",
+    "estimator": "empirical",
+    "events": 1191,
+    "weight": 826.735757124261,
+    "brier": 0.13662378737163985,
+    "logloss": 1.2938390752441113
+  },
+  {
+    "dataset": "toys",
+    "bin": "(3,10]",
+    "estimator": "laplace",
+    "events": 1191,
+    "weight": 826.735757124261,
+    "brier": 0.13889305422448775,
+    "logloss": 0.44899968808925
+  },
+  {
+    "dataset": "toys",
+    "bin": "(3,10]",
+    "estimator": "jeffreys",
+    "events": 1191,
+    "weight": 826.735757124261,
+    "brier": 0.13470342053364992,
+    "logloss": 0.43786376992673154
+  },
+  {
+    "dataset": "toys",
+    "bin": "(3,10]",
+    "estimator": "neutral",
+    "events": 1191,
+    "weight": 826.735757124261,
+    "brier": 0.13470342053364992,
+    "logloss": 0.43786376992673154
+  },
+  {
+    "dataset": "toys",
+    "bin": "(3,10]",
+    "estimator": "bt_prior",
+    "events": 1191,
+    "weight": 826.735757124261,
+    "brier": 0.21766138380006392,
+    "logloss": 0.6229767906940478
+  },
+  {
+    "dataset": "toys",
+    "bin": "(3,10]",
+    "estimator": "bt_shrinkage",
+    "events": 1191,
+    "weight": 826.735757124261,
+    "brier": 0.1342105325286274,
+    "logloss": 0.44035243655268924
+  },
+  {
+    "dataset": "toys",
+    "bin": ">10",
+    "estimator": "empirical",
+    "events": 234,
+    "weight": 176.36181649938226,
+    "brier": 0.10624320781376902,
+    "logloss": 0.6067469644288597
+  },
+  {
+    "dataset": "toys",
+    "bin": ">10",
+    "estimator": "laplace",
+    "events": 234,
+    "weight": 176.36181649938226,
+    "brier": 0.10648117175853948,
+    "logloss": 0.3682756451972833
+  },
+  {
+    "dataset": "toys",
+    "bin": ">10",
+    "estimator": "jeffreys",
+    "events": 234,
+    "weight": 176.36181649938226,
+    "brier": 0.10596918092218306,
+    "logloss": 0.3696314411706392
+  },
+  {
+    "dataset": "toys",
+    "bin": ">10",
+    "estimator": "neutral",
+    "events": 234,
+    "weight": 176.36181649938226,
+    "brier": 0.10596918092218306,
+    "logloss": 0.3696314411706392
+  },
+  {
+    "dataset": "toys",
+    "bin": ">10",
+    "estimator": "bt_prior",
+    "events": 234,
+    "weight": 176.36181649938226,
+    "brier": 0.19303201448111798,
+    "logloss": 0.5737180344339674
+  },
+  {
+    "dataset": "toys",
+    "bin": ">10",
+    "estimator": "bt_shrinkage",
+    "events": 234,
+    "weight": 176.36181649938226,
+    "brier": 0.10568070119293613,
+    "logloss": 0.36994483270720546
+  },
+  {
+    "dataset": "toys",
+    "bin": "all",
+    "estimator": "empirical",
+    "events": 17700,
+    "weight": 8955.223451624624,
+    "brier": 0.24860913723906763,
+    "logloss": 5.826847219937876
+  },
+  {
+    "dataset": "toys",
+    "bin": "all",
+    "estimator": "laplace",
+    "events": 17700,
+    "weight": 8955.223451624624,
+    "brier": 0.203270321726851,
+    "logloss": 0.5941154450445048
+  },
+  {
+    "dataset": "toys",
+    "bin": "all",
+    "estimator": "jeffreys",
+    "events": 17700,
+    "weight": 8955.223451624624,
+    "brier": 0.1976663241331516,
+    "logloss": 0.5809119450126101
+  },
+  {
+    "dataset": "toys",
+    "bin": "all",
+    "estimator": "neutral",
+    "events": 17700,
+    "weight": 8955.223451624624,
+    "brier": 0.1976663241331516,
+    "logloss": 0.5809119450126101
+  },
+  {
+    "dataset": "toys",
+    "bin": "all",
+    "estimator": "bt_prior",
+    "events": 17700,
+    "weight": 8955.223451624624,
+    "brier": 0.21754944910687946,
+    "logloss": 0.6238426533333417
+  },
+  {
+    "dataset": "toys",
+    "bin": "all",
+    "estimator": "bt_shrinkage",
+    "events": 17700,
+    "weight": 8955.223451624624,
+    "brier": 0.18252752957708923,
+    "logloss": 0.5482359915756362
+  }
+]

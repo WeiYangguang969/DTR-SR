@@ -1,0 +1,116 @@
+{
+  "beauty": {
+    "dpt": {
+      "kappa": 1.0,
+      "power": 0.0,
+      "ridge": 1.0,
+      "maxiter": 200,
+      "ftol": 1e-09,
+      "prior": "bt"
+    },
+    "calibration": {
+      "pair_penalty": 0.5,
+      "exposure_power": 0.25
+    },
+    "completion": {
+      "strength": 1.0,
+      "fanout": 64,
+      "exclude_observed": true,
+      "renormalize_paths": false,
+      "row_restore": 0.0
+    },
+    "pctm": {
+      "counts": "inv:10:0.5",
+      "tau": 11250.0,
+      "kernel": "exp:0.6",
+      "pop_boost": -0.04
+    },
+    "seqrules": {
+      "rules": {
+        "steps": 10,
+        "weighting": "log",
+        "pruning": 100,
+        "idf_weight": false
+      },
+      "history_length": 10,
+      "history_weighting": "quadratic"
+    },
+    "max_history": 50
+  },
+  "sports": {
+    "dpt": {
+      "kappa": 3.0,
+      "power": 0.5,
+      "ridge": 1.0,
+      "maxiter": 200,
+      "ftol": 1e-09,
+      "prior": "bt"
+    },
+    "calibration": {
+      "pair_penalty": 0.5,
+      "exposure_power": 0.25
+    },
+    "completion": {
+      "strength": 1.0,
+      "fanout": 32,
+      "exclude_observed": false,
+      "renormalize_paths": false,
+      "row_restore": 0.0
+    },
+    "pctm": {
+      "counts": "inv:10:0.5",
+      "tau": 15000.0,
+      "kernel": "tail:10:0.8:0.7",
+      "pop_boost": 0.0
+    },
+    "seqrules": {
+      "rules": {
+        "steps": 30,
+        "weighting": "log",
+        "pruning": 0,
+        "idf_weight": false
+      },
+      "history_length": 20,
+      "history_weighting": "div"
+    },
+    "max_history": 50
+  },
+  "toys": {
+    "dpt": {
+      "kappa": 1.0,
+      "power": 0.0,
+      "ridge": 1.0,
+      "maxiter": 200,
+      "ftol": 1e-09,
+      "prior": "bt"
+    },
+    "calibration": {
+      "pair_penalty": 0.5,
+      "exposure_power": 0.25
+    },
+    "completion": {
+      "strength": 1.0,
+      "fanout": 32,
+      "exclude_observed": false,
+      "renormalize_paths": false,
+      "row_restore": 0.0
+    },
+    "pctm": {
+      "counts": "exp:20:0.7",
+      "tau": 15000.0,
+      "kernel": "tail:7:0.8:0.6",
+      "pop_boost": 0.0
+    },
+    "seqrules": {
+      "rules": {
+        "steps": 30,
+        "weighting": "log",
+        "pruning": 0,
+        "idf_weight": false
+      },
+      "history_length": 10,
+      "history_weighting": "div"
+    },
+    "max_history": 50
+  }
+}

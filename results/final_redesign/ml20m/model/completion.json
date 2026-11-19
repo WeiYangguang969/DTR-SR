@@ -1,0 +1,107 @@
+{
+  "format": "DPT-completion-1",
+  "config": {
+    "strength": 1.0,
+    "fanout": 32,
+    "exclude_observed": false,
+    "renormalize_paths": false,
+    "row_restore": 0.0
+  },
+  "diagnostics": {
+    "direction": {
+      "prior": "bt",
+      "iterations": 268,
+      "converged": true,
+      "termination": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "objective": 27115870.078348953,
+      "gradient_inf_norm": 40.545087992687094,
+      "direction_seconds": 290.2307012859999,
+      "pair_support_nnz": 37874402,
+      "new_direction_edges": 11464035
+    },
+    "completion": {
+      "fanout": 32,
+      "completion_nnz": 854624,
+      "nnz_bound": 854624,
+      "max_block_product_nnz": 96003,
+      "block_product_nnz_bound": 131072,
+      "retained_one_hop_mass_quantiles": [
+        0.08199720587666073,
+        0.21401520522707373,
+        0.5530979973195954,
+        0.9758938272202806,
+        1.0
+      ],
+      "completion_probability_mass_quantiles": [
+        0.0031651062100141363,
+        0.014364778780999801,
+        0.043183663813121734,
+        0.13855399017903178,
+        0.8958537181668235
+      ],
+      "max_completion_probability_mass": 0.8958537181668235,
+      "exclude_observed": false,
+      "renormalize_paths": false,
+      "build_seconds": 2.9019082949998847
+    },
+    "fit_seconds": 333.51463179300004,
+    "base_evidence_nnz": 37874402,
+    "total_stored_evidence_nnz": 38729026,
+    "dense_item_item_matrix": false,
+    "gpu_used": false,
+    "extra_learned_parameters": 1,
+    "completion_config": {
+      "strength": 1.0,
+      "fanout": 32,
+      "exclude_observed": false,
+      "renormalize_paths": false,
+      "row_restore": 0.0
+    },
+    "budget_config": {
+      "conditional": true,
+      "uncertainty": true
+    },
+    "source_budget_quantiles": [
+      0.0017013124297790049,
+      0.4638146597289837,
+      0.9214650161270006,
+      0.9863978507783341,
+      0.9989912379474646
+    ],
+    "path_residual_max": 5.33602877732178,
+    "score_definition": "S_power(A) + H log(1+n*eta*u*B/(tau+n*A)) + beta log(popularity)",
+    "rank_calibration": {
+      "kernels": [
+        "tail:7:0.8:0.6",
+        "last",
+        "exp:0.3",
+        "exp:0.6",
+        "exp:0.85",
+        "inv:0.5"
+      ],
+      "weights": [
+        0.9193085663659251,
+        0.0,
+        0.0,
+        0.080691433634075,
+        0.0,
+        0.0,
+        1.0,
+        -0.5
+      ],
+      "prior": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -0.5
+      ],
+      "selected_axis": "history_3",
+      "refit_parameter": 0.080691433634075
+    },
+    "calibration_fitted_scalar_count": 1
+  }
+}

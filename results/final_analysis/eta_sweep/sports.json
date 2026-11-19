@@ -1,0 +1,122 @@
+[
+  {
+    "dataset": "sports",
+    "eta": 0.0,
+    "variant": "ungated",
+    "ndcg10": 0.043458155857201725,
+    "recall10": 0.07127959413754227,
+    "seconds": 53.5790873
+  },
+  {
+    "dataset": "sports",
+    "eta": 0.003,
+    "variant": "ungated",
+    "ndcg10": 0.043459207399898926,
+    "recall10": 0.07127959413754227,
+    "seconds": 56.31693410000001
+  },
+  {
+    "dataset": "sports",
+    "eta": 0.003,
+    "variant": "full_gated",
+    "ndcg10": 0.043471375679875954,
+    "recall10": 0.07127959413754227,
+    "seconds": 56.597064700000004
+  },
+  {
+    "dataset": "sports",
+    "eta": 0.01,
+    "variant": "ungated",
+    "ndcg10": 0.043477353939228504,
+    "recall10": 0.07133596392333709,
+    "seconds": 57.86167070000002
+  },
+  {
+    "dataset": "sports",
+    "eta": 0.01,
+    "variant": "full_gated",
+    "ndcg10": 0.04347166155779718,
+    "recall10": 0.07125140924464488,
+    "seconds": 58.17202850000001
+  },
+  {
+    "dataset": "sports",
+    "eta": 0.03,
+    "variant": "ungated",
+    "ndcg10": 0.04355772209731041,
+    "recall10": 0.07153325817361894,
+    "seconds": 56.0990865
+  },
+  {
+    "dataset": "sports",
+    "eta": 0.03,
+    "variant": "full_gated",
+    "ndcg10": 0.04349450636700955,
+    "recall10": 0.07133596392333709,
+    "seconds": 57.88901340000001
+  },
+  {
+    "dataset": "sports",
+    "eta": 0.1,
+    "variant": "ungated",
+    "ndcg10": 0.04362503321569182,
+    "recall10": 0.07184329199549042,
+    "seconds": 55.41280109999997
+  },
+  {
+    "dataset": "sports",
+    "eta": 0.1,
+    "variant": "full_gated",
+    "ndcg10": 0.04364350697271696,
+    "recall10": 0.071815107102593,
+    "seconds": 55.80710179999994
+  },
+  {
+    "dataset": "sports",
+    "eta": 0.3,
+    "variant": "ungated",
+    "ndcg10": 0.04389468460228659,
+    "recall10": 0.07235062006764374,
+    "seconds": 55.195125899999994
+  },
+  {
+    "dataset": "sports",
+    "eta": 0.3,
+    "variant": "full_gated",
+    "ndcg10": 0.04387453773496602,
+    "recall10": 0.07220969560315671,
+    "seconds": 55.232710699999984
+  },
+  {
+    "dataset": "sports",
+    "eta": 1.0,
+    "variant": "ungated",
+    "ndcg10": 0.04429430924776154,
+    "recall10": 0.07373167981961669,
+    "seconds": 56.81897589999994
+  },
+  {
+    "dataset": "sports",
+    "eta": 1.0,
+    "variant": "full_gated",
+    "ndcg10": 0.04426461830292249,
+    "recall10": 0.07353438556933484,
+    "seconds": 60.47198550000007
+  },
+  {
+    "dataset": "sports",
+    "eta": 3.0,
+    "variant": "ungated",
+    "ndcg10": 0.043762397583937095,
+    "recall10": 0.07370349492671928,
+    "seconds": 60.205368200000066
+  },
+  {
+    "dataset": "sports",
+    "eta": 3.0,
+    "variant": "full_gated",
+    "ndcg10": 0.04426430177225624,
+    "recall10": 0.0742108229988726,
+    "seconds": 60.337963599999966
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "dataset": "ml1m",
+    "eta": 0.0,
+    "variant": "ungated",
+    "ndcg10": 0.18724572010673812,
+    "recall10": 0.3185430463576159,
+    "seconds": 22.932420700000023
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 0.003,
+    "variant": "ungated",
+    "ndcg10": 0.1813132148622261,
+    "recall10": 0.3115894039735099,
+    "seconds": 23.928930399999956
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 0.003,
+    "variant": "full_gated",
+    "ndcg10": 0.18725001734089233,
+    "recall10": 0.3185430463576159,
+    "seconds": 25.024579899999992
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 0.01,
+    "variant": "ungated",
+    "ndcg10": 0.172945339313312,
+    "recall10": 0.2996688741721854,
+    "seconds": 23.981085399999984
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 0.01,
+    "variant": "full_gated",
+    "ndcg10": 0.1872449435627257,
+    "recall10": 0.3185430463576159,
+    "seconds": 24.508932300000026
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 0.03,
+    "variant": "ungated",
+    "ndcg10": 0.16409958868205082,
+    "recall10": 0.28774834437086094,
+    "seconds": 24.305295100000023
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 0.03,
+    "variant": "full_gated",
+    "ndcg10": 0.18724098158612099,
+    "recall10": 0.3185430463576159,
+    "seconds": 24.37312559999998
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 0.1,
+    "variant": "ungated",
+    "ndcg10": 0.15324735929616456,
+    "recall10": 0.2705298013245033,
+    "seconds": 23.414787699999977
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 0.1,
+    "variant": "full_gated",
+    "ndcg10": 0.18726257697770557,
+    "recall10": 0.31870860927152317,
+    "seconds": 24.270038599999964
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 0.3,
+    "variant": "ungated",
+    "ndcg10": 0.14466741392473703,
+    "recall10": 0.25711920529801324,
+    "seconds": 24.006388800000025
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 0.3,
+    "variant": "full_gated",
+    "ndcg10": 0.18724269794044932,
+    "recall10": 0.3183774834437086,
+    "seconds": 24.623597800000027
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 1.0,
+    "variant": "ungated",
+    "ndcg10": 0.13875666706539413,
+    "recall10": 0.24652317880794702,
+    "seconds": 23.22132110000007
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 1.0,
+    "variant": "full_gated",
+    "ndcg10": 0.18615697793531272,
+    "recall10": 0.316887417218543,
+    "seconds": 23.784658000000036
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 3.0,
+    "variant": "ungated",
+    "ndcg10": 0.1336094936743988,
+    "recall10": 0.23857615894039735,
+    "seconds": 23.118045399999914
+  },
+  {
+    "dataset": "ml1m",
+    "eta": 3.0,
+    "variant": "full_gated",
+    "ndcg10": 0.18660430143498907,
+    "recall10": 0.31920529801324504,
+    "seconds": 23.850728300000014
+  }
+]

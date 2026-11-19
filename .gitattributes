@@ -1,0 +1,2 @@
+# Preserve the byte-level hashes of the supplied replication files.
+* -text

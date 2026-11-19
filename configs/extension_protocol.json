@@ -1,0 +1,135 @@
+{
+  "utc": "2026-09-08T12:47:22.858889+00:00",
+  "external_config": {
+    "ml1m": {
+      "dpt": {
+        "kappa": 1.0,
+        "power": 0.0,
+        "ridge": 1.0,
+        "maxiter": 200,
+        "ftol": 1e-09,
+        "prior": "bt"
+      },
+      "calibration": {
+        "pair_penalty": 0.5,
+        "exposure_power": 0.25
+      },
+      "completion": {
+        "strength": 1.0,
+        "fanout": 32,
+        "exclude_observed": false,
+        "renormalize_paths": false,
+        "row_restore": 0.0
+      },
+      "pctm": {
+        "counts": "inv:20:1.0",
+        "tau": 150.0,
+        "kernel": "tail:7:0.8:0.6",
+        "pop_boost": -0.4
+      },
+      "seqrules": {
+        "rules": {
+          "steps": 10,
+          "weighting": "div",
+          "pruning": 200,
+          "idf_weight": true
+        },
+        "history_length": 10,
+        "history_weighting": "quadratic"
+      },
+      "max_history": 200
+    },
+    "ml20m": {
+      "dpt": {
+        "kappa": 1.0,
+        "power": 0.0,
+        "ridge": 1.0,
+        "maxiter": 1000,
+        "ftol": 1e-09,
+        "prior": "bt"
+      },
+      "calibration": {
+        "pair_penalty": 0.5,
+        "exposure_power": 0.25
+      },
+      "completion": {
+        "strength": 1.0,
+        "fanout": 32,
+        "exclude_observed": false,
+        "renormalize_paths": false,
+        "row_restore": 0.0
+      },
+      "pctm": {
+        "counts": "exp:10:0.5",
+        "tau": 225.0,
+        "kernel": "tail:7:0.8:0.6",
+        "pop_boost": -0.5
+      },
+      "seqrules": {
+        "rules": {
+          "steps": 20,
+          "weighting": "div",
+          "pruning": 100,
+          "idf_weight": true
+        },
+        "history_length": 5,
+        "history_weighting": "quadratic"
+      },
+      "max_history": 200
+    }
+  },
+  "derivation": "Componentwise median/mode of the frozen three Amazon configurations; original dataset-specific PCTM and SeqRules settings retained.",
+  "recovery_note": "Intermediate scripts and supplementary result files were lost when the workspace was restored. Reruns preserve the previously specified configurations.",
+  "numerical_budget": "ML20M maxiter=1000 retains the iteration-only amendment described before recovery, after the earlier 200-iteration fit failed before ranking. No accuracy hyperparameter is changed.",
+  "scope": {
+    "ml1m": "External transfer with fixed configuration.",
+    "ml20m": "External transfer; DPT module settings frozen before its ranking metrics, without dataset-specific DPT search. Published baseline aggregates were known."
+  },
+  "core_sha256": {
+    "dpt_sr/runtime.py": "f66ef3c3e1073831acbf6cd6ca6526b7d445be822657c6fa2d2295f3ee8236f3",
+    "dpt_sr/model.py": "9e83fcce87a8ac7ecf8f459e5dc64f8433fb77e80ec7c6066d134509a4580d75",
+    "dpt_sr/data.py": "ec5db5f23aaff38f1d978aa1f9dcee80b804a43a99a63e0ec1b1029c627153cf",
+    "dpt_sr/full_model.py": "f7b8718d2f8c172ede84c0d4541e0ce0159c82783e3abb97d32d354ba1f6d15a",
+    "dpt_sr/serialization.py": "ffc1f6d06b18ba35e930aa7d62579dc66fb2e43d0c1200f80522ebb5283438e1",
+    "dpt_sr/__init__.py": "fa222c48f9029caa0c19a2ed5b41fba32aaca29f5b91e83f7eb8e6fc73a1c51c",
+    "dpt_sr/calibration.py": "70d75182fa4611e7f560bf47b7aa4a6eb511513634b8dab7d59d63e525f65627",
+    "capacity_probes/counts.py": "c974574c68a1df491cdce61737a890193167dc41073ceab920af4e552043c68d",
+    "capacity_probes/metrics.py": "558dbd6a9c588a22500a47f97d2e77ec3c0011825ea9e0cec42392f58bfd53e7",
+    "capacity_probes/ranking.py": "d25f2d04e935f8fe3b25c461ccb67c06aea0acc69e0af139ce1fc273399b7a5c",
+    "capacity_probes/sequences.py": "9a7f0846babb9dd9b2c5dccf895dbf71fbc77619f8a628c8139f3f501790bf62",
+    "capacity_probes/columns.py": "c4eb1109d318081b193f59412db271d7d0115ec2e4e0629a8485b6a8b1148600",
+    "capacity_probes/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "capacity_probes/models/seqrules.py": "68c69b4a75e9d1ba3f5c6640c46bce4587c4dd74679a8729e37caf8d50564668",
+    "capacity_probes/models/pctm.py": "9b49016e9b6707ea91b8dddaff15a010bdc32658fbab2c71809747813d38a4ba",
+    "capacity_probes/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "controls": {
+    "direction": [
+      "empirical",
+      "laplace",
+      "jeffreys",
+      "neutral",
+      "bt_prior",
+      "bt_shrinkage"
+    ],
+    "history": [
+      "proposed",
+      "uniform",
+      "inverse_mass",
+      "idf"
+    ],
+    "cutoffs": [
+      5,
+      10,
+      20
+    ]
+  },
+  "external_variants": [
+    "full",
+    "pctm",
+    "seqrules",
+    "no_direction",
+    "no_history",
+    "no_path"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "sports",
+  "model": "pctm",
+  "k": 20,
+  "users": 35539,
+  "metrics": {
+    "ndcg@5": 0.03147403038821782,
+    "recall@5": 0.045049100987647375,
+    "ndcg@10": 0.036794512955713954,
+    "recall@10": 0.06156616674639129,
+    "ndcg@20": 0.0424618259302381,
+    "recall@20": 0.08407664818931315
+  },
+  "seconds": 54.560618399991654,
+  "source": "upstream sequential-capacity-probes @705710f, our verified data"
+}

@@ -1,0 +1,24 @@
+{
+  "dataset": "toys",
+  "split": "training-only inner leave-one-out",
+  "unsupported": {
+    "events": 97871,
+    "fraction": 0.8468473925119624,
+    "weight_fraction": 0.8256386584282167
+  },
+  "conditioning": "Supported non-self item pairs; binary temporal orientation, not next-item probability calibration",
+  "weights": "exp:20:0.7",
+  "diagnostics": {
+    "prior": "bt",
+    "iterations": 50,
+    "converged": true,
+    "termination": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+    "objective": 162530.71254055417,
+    "gradient_inf_norm": 0.024625090128842064,
+    "direction_seconds": 1.6012018899999703,
+    "pair_support_nnz": 1246436,
+    "new_direction_edges": 608185
+  },
+  "kappa": 1.0,
+  "events_sha256": "adb5c5e1a8fa7aa6e1499b4e865f0528245ec6b98ad9b7c6b32ee533e45e2e44"
+}

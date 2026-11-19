@@ -1,0 +1,13 @@
+{
+  "dataset": "toys",
+  "model": "esasrec",
+  "metrics": {
+    "recall@10": 0.0928995610637748,
+    "recall@20": 0.1289956106377485,
+    "ndcg@10": 0.0534100462609426,
+    "ndcg@20": 0.0624965919176853
+  },
+  "seconds": 1203.613948000013,
+  "report": "metrics_report.csv",
+  "deviation": "evaluation depth K=20 in src/val_schemes/leave_one_out.py; training unchanged"
+}

@@ -1,0 +1,241 @@
+{
+  "source": "https://arxiv.org/html/2608.19833v1",
+  "table": 1,
+  "retrieved": "2026-09-07",
+  "type": "cited, not locally retrained neural baselines",
+  "ndcg10": {
+    "beauty": {
+      "mc": 0.0492,
+      "fmc": 0.0481,
+      "fmc_plus": 0.0531,
+      "sasrec_plus": 0.0537,
+      "esasrec": 0.0524,
+      "seqrules": 0.0605,
+      "pctm": 0.0635
+    },
+    "sports": {
+      "mc": 0.0251,
+      "fmc": 0.0244,
+      "fmc_plus": 0.0271,
+      "sasrec_plus": 0.0315,
+      "esasrec": 0.0324,
+      "seqrules": 0.0371,
+      "pctm": 0.0368
+    },
+    "toys": {
+      "mc": 0.0548,
+      "fmc": 0.0554,
+      "fmc_plus": 0.0588,
+      "sasrec_plus": 0.0575,
+      "esasrec": 0.0533,
+      "seqrules": 0.073,
+      "pctm": 0.0738
+    },
+    "ml1m": {
+      "mc": 0.124,
+      "fmc": 0.1124,
+      "fmc_plus": 0.1206,
+      "sasrec_plus": 0.1662,
+      "esasrec": 0.1739,
+      "seqrules": 0.1505,
+      "pctm": 0.1815
+    },
+    "ml20m": {
+      "mc": 0.105,
+      "fmc": 0.0807,
+      "fmc_plus": 0.1034,
+      "sasrec_plus": 0.1806,
+      "esasrec": 0.1969,
+      "seqrules": 0.1115,
+      "pctm": 0.1431
+    }
+  },
+  "cleanroom": {
+    "beauty": {
+      "esasrec": {
+        "ndcg10": 0.0510836943182292,
+        "recall10": 0.0909865088969566,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/beauty/esasrec.json"
+      },
+      "fmc": {
+        "ndcg10": 0.048106803594069734,
+        "recall10": 0.0724306395948187,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/beauty/fmc.json"
+      },
+      "fmc_plus": {
+        "ndcg10": 0.05307078848715795,
+        "recall10": 0.08247053023172427,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/beauty/fmc_plus.json"
+      },
+      "mc": {
+        "ndcg10": 0.04917674433126107,
+        "recall10": 0.07229617677378872,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/beauty/mc.json"
+      },
+      "pctm": {
+        "ndcg10": 0.06351669441168159,
+        "recall10": 0.09981623414459236,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/beauty/pctm.json"
+      },
+      "sasrec_plus": {
+        "ndcg10": 0.0534401276957474,
+        "recall10": 0.0921070324055398,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/beauty/sasrec_plus.json"
+      },
+      "seqrules": {
+        "ndcg10": 0.060476680242953246,
+        "recall10": 0.09555824481197615,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/beauty/seqrules.json"
+      }
+    },
+    "ml1m": {
+      "esasrec": {
+        "ndcg10": 0.1766740228171455,
+        "recall10": 0.3106989069228221,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml1m/esasrec.json"
+      },
+      "fmc": {
+        "ndcg10": 0.11243746963835269,
+        "recall10": 0.19956939383901953,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml1m/fmc.json"
+      },
+      "fmc_plus": {
+        "ndcg10": 0.12059315435877965,
+        "recall10": 0.20619410400794966,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml1m/fmc_plus.json"
+      },
+      "mc": {
+        "ndcg10": 0.12395592640437567,
+        "recall10": 0.21116263663464724,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml1m/mc.json"
+      },
+      "pctm": {
+        "ndcg10": 0.18151569527641828,
+        "recall10": 0.30573037429612454,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml1m/pctm.json"
+      },
+      "sasrec_plus": {
+        "ndcg10": 0.1654249327224325,
+        "recall10": 0.2911560119244783,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml1m/sasrec_plus.json"
+      },
+      "seqrules": {
+        "ndcg10": 0.15049353711333982,
+        "recall10": 0.257535607817158,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml1m/seqrules.json"
+      }
+    },
+    "ml20m": {
+      "esasrec": {
+        "ndcg10": 0.1947600227309118,
+        "recall10": 0.3268619633674235,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml20m/esasrec.json"
+      },
+      "fmc": {
+        "ndcg10": 0.08065204572817027,
+        "recall10": 0.14107730975905702,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml20m/fmc.json"
+      },
+      "fmc_plus": {
+        "ndcg10": 0.1034127882319515,
+        "recall10": 0.1725963482983764,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml20m/fmc_plus.json"
+      },
+      "mc": {
+        "ndcg10": 0.10501182733980856,
+        "recall10": 0.17488588432426186,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml20m/mc.json"
+      },
+      "pctm": {
+        "ndcg10": 0.14311938053078943,
+        "recall10": 0.24047350782920204,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml20m/pctm.json"
+      },
+      "sasrec_plus": {
+        "ndcg10": 0.1813865144631605,
+        "recall10": 0.3102935228520252,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml20m/sasrec_plus.json"
+      },
+      "seqrules": {
+        "ndcg10": 0.11152513006962173,
+        "recall10": 0.1887458831686601,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/ml20m/seqrules.json"
+      }
+    },
+    "sports": {
+      "esasrec": {
+        "ndcg10": 0.0319926837297193,
+        "recall10": 0.0566138608289484,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/sports/esasrec.json"
+      },
+      "fmc": {
+        "ndcg10": 0.024419411790984683,
+        "recall10": 0.03840850896198542,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/sports/fmc.json"
+      },
+      "fmc_plus": {
+        "ndcg10": 0.027098598520343724,
+        "recall10": 0.043895438813697625,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/sports/fmc_plus.json"
+      },
+      "mc": {
+        "ndcg10": 0.02512631269810142,
+        "recall10": 0.038999409099862124,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/sports/mc.json"
+      },
+      "pctm": {
+        "ndcg10": 0.036794512955713954,
+        "recall10": 0.06156616674639129,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/sports/pctm.json"
+      },
+      "sasrec_plus": {
+        "ndcg10": 0.0321395457658469,
+        "recall10": 0.0569515180505923,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/sports/sasrec_plus.json"
+      },
+      "seqrules": {
+        "ndcg10": 0.03712569073678912,
+        "recall10": 0.06255100030951911,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/sports/seqrules.json"
+      }
+    },
+    "toys": {
+      "esasrec": {
+        "ndcg10": 0.0516333796365095,
+        "recall10": 0.0900077459333849,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/toys/esasrec.json"
+      },
+      "fmc": {
+        "ndcg10": 0.05587542148653014,
+        "recall10": 0.08298476633100955,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/toys/fmc.json"
+      },
+      "fmc_plus": {
+        "ndcg10": 0.058792629210453654,
+        "recall10": 0.08851019881229022,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/toys/fmc_plus.json"
+      },
+      "mc": {
+        "ndcg10": 0.054778759467084166,
+        "recall10": 0.07957655564162149,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/toys/mc.json"
+      },
+      "pctm": {
+        "ndcg10": 0.07377001569106884,
+        "recall10": 0.11303898786470436,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/toys/pctm.json"
+      },
+      "sasrec_plus": {
+        "ndcg10": 0.058660948653839,
+        "recall10": 0.0974954815388587,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/toys/sasrec_plus.json"
+      },
+      "seqrules": {
+        "ndcg10": 0.07299674545893094,
+        "recall10": 0.11422669765040021,
+        "source": "https://github.com/spotify-research/sequential-capacity-probes/blob/705710f78abd613cd8ee139f7435d813eef2f8ab/artifacts/table1-clean-room/model-metadata/toys/seqrules.json"
+      }
+    }
+  },
+  "record_note": "NDCG@10 and Recall@10 in each cleanroom entry originate from the same author-published run; paper Table 1 NDCG is retained separately."
+}

@@ -1,0 +1,17 @@
+Sequential Capacity Probes
+Copyright 2026 Aleksandr V. Petrov, Praveen Chandar, Paul Bennett,
+Hugues Bouchard, and Mounia Lalmas
+
+Vendored capacity_probes/ derives from spotify-research/sequential-capacity-probes
+commit 705710f78abd613cd8ee139f7435d813eef2f8ab, under Apache-2.0.
+Changes: local column constants; lazy official metric import; Windows
+single-process fallback. All modifications retain upstream attribution.
+
+DPT-SR implementation and experiment scripts are research extensions.
+Data preparation follows eSASRec commit
+2b039927ceb4c7654131d7ac7c43ea124b49d240 and is verified against released hashes.
+Amazon sequence files originate from RUCAIBox/CIKM2020-S3Rec
+commit 2a81540ae18615d88ef88227b0c066e5b74781e5.
+The software license does not relicense these third-party datasets.
+
+No affiliation or endorsement by the upstream authors is implied.

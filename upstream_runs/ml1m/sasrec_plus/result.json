@@ -1,0 +1,13 @@
+{
+  "dataset": "ml1m",
+  "model": "sasrec_plus",
+  "metrics": {
+    "recall@10": 0.293640278237827,
+    "recall@20": 0.3956608148393508,
+    "ndcg@10": 0.1671399208817059,
+    "ndcg@20": 0.1929787239468734
+  },
+  "seconds": 685.4088181999978,
+  "report": "metrics_report.csv",
+  "deviation": "evaluation depth K=20 in src/val_schemes/leave_one_out.py; training unchanged"
+}

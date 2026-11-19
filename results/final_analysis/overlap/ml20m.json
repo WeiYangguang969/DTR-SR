@@ -1,0 +1,75 @@
+{
+  "dataset": "ml20m",
+  "n_items": 26673,
+  "tau": 225.0,
+  "eta": 1.0,
+  "nnz": 853536,
+  "frac_edges_redundant": 0.5835910846174034,
+  "frac_mass_redundant": 0.9927308280677214,
+  "mass_weighted_gate": 0.011506843149079175,
+  "median_gate": 0.6516363456366501,
+  "edge_weighted_gate_on_redundant": 0.18377716980933126,
+  "deciles": [
+    {
+      "decile": 0,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.0018663313043675678
+    },
+    {
+      "decile": 1,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.0018316267422549854
+    },
+    {
+      "decile": 2,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.0011754571671648139
+    },
+    {
+      "decile": 3,
+      "mean_Ac": 0.0,
+      "mean_gate": 1.0,
+      "mass_share": 0.0019444500102388372
+    },
+    {
+      "decile": 4,
+      "mean_Ac": 0.0010548163208412805,
+      "mean_gate": 0.9062130012993417,
+      "mass_share": 0.003138407692940316
+    },
+    {
+      "decile": 5,
+      "mean_Ac": 0.03431362779569415,
+      "mean_gate": 0.2576822365409215,
+      "mass_share": 0.004724105533989177
+    },
+    {
+      "decile": 6,
+      "mean_Ac": 0.16136353903025594,
+      "mean_gate": 0.0539196136642272,
+      "mass_share": 0.006155115506183148
+    },
+    {
+      "decile": 7,
+      "mean_Ac": 0.6507400322970637,
+      "mean_gate": 0.015016767827655254,
+      "mass_share": 0.012876031870883514
+    },
+    {
+      "decile": 8,
+      "mean_Ac": 3.1481272494046033,
+      "mean_gate": 0.0033419307342171492,
+      "mass_share": 0.03724674126517794
+    },
+    {
+      "decile": 9,
+      "mean_Ac": 77.9271116614199,
+      "mean_gate": 0.000459561357684713,
+      "mass_share": 0.9290417329068001
+    }
+  ],
+  "seconds": 549.9424711
+}

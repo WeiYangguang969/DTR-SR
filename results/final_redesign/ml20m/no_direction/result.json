@@ -1,0 +1,29 @@
+{
+  "dataset": "ml20m",
+  "variant": "no_direction",
+  "metrics": {
+    "ndcg@5": 0.12066864853032666,
+    "recall@5": 0.17162130929681632,
+    "ndcg@10": 0.14274127599941902,
+    "recall@10": 0.24008349222857803,
+    "ndcg@20": 0.16347476240069192,
+    "recall@20": 0.3222612237822846
+  },
+  "users": 138456,
+  "data_sha256": {
+    "train.csv": {
+      "sha256": "5392d0bd6cb40724a141f0419fd039064058f7a154f9a8c31d9659a221c16f82",
+      "rows": 19861770,
+      "verified": true
+    },
+    "holdout.csv": {
+      "sha256": "b5da7afee4b9d24b7e6f6bcaea33d7d961ad63db19cf9a8df8faf63563e676d7",
+      "rows": 138456,
+      "verified": true
+    }
+  },
+  "config_sha256": "ddb0cca6b2c2b089bce2ee3708e09d8dced8c2aa5b6c1c3a32cbfe61d297c8d0",
+  "per_user_sha256": "3c1d4ab676c2baa9414a014d61ab0901b9455d594bd4cdb558703715e24da7ec",
+  "seconds": 573.0190910809997,
+  "scope": "Fixed configuration deletion; fitted components reused where unaffected."
+}
